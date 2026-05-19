@@ -1,6 +1,6 @@
 # Contributing to DACnetwork
 
-Thank you for your interest in contributing to DAC Network.
+Thank you for your interest in contributing to DACnetwork.
 
 ## How to Contribute
 - Share ideas
