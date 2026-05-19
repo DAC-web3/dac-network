@@ -1,4 +1,4 @@
-# Contributing to DAC Network
+# Contributing to DACnetwork
 
 Thank you for your interest in contributing to DAC Network.
 
