@@ -38,4 +38,4 @@ Global communities now exist beyond geography, enabled by blockchain, open colla
 
 Traditional institutions struggle to adapt to a networked world.
 
-DAC Network emerges at this moment to explore new forms of decentralized civilization and collective governance.
+DACnetwork emerges at this moment to explore new forms of decentralized civilization and collective governance.
