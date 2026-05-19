@@ -1,6 +1,6 @@
 # Governance
 
-DAC Network aims to operate as a decentralized autonomous organization (DAO).
+DACnetwork aims to operate as a decentralized autonomous organization (DAO).
 
 ## Principles
 - Transparency
