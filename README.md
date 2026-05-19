@@ -28,3 +28,14 @@ DACnetwork explores the transition from traditional institutions toward decentra
 We believe humanity is entering a new coordination era where communities self-govern, collaborate globally, and build shared digital societies.
 
 DACnetwork is not only a project — it is an exploration of how civilization evolves in the Web3 age.
+
+
+## Why Now
+
+Human coordination systems are evolving.
+
+Global communities now exist beyond geography, enabled by blockchain, open collaboration, and digital identity.
+
+Traditional institutions struggle to adapt to a networked world.
+
+DAC Network emerges at this moment to explore new forms of decentralized civilization and collective governance.
