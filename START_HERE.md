@@ -2,8 +2,12 @@
 
 Welcome to DACnetwork.
 
-If you want to contribute:
+DACnetwork explores the creation of a decentralized autonomous civilization.
+
+## How to Get Involved
 1. Read the Vision
-2. Check open Issues
+2. Explore Open Problems (Issues)
 3. Join discussions
-4. Submit ideas or pull requests
+4. Share ideas or submit contributions
+
+We build openly and collaboratively.
