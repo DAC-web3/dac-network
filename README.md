@@ -18,4 +18,4 @@ We are building an open decentralized civilization.
 
 Contributors, thinkers, developers, and builders are welcome.
 
-If you want to help shape the future of decentralized society, join the DAC Network.
+If you want to help shape the future of decentralized society, join the DACnetwork.
