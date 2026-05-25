@@ -373,13 +373,6 @@ $DAC is a utility token aligned with MiCA principles from the European Union (EU
 
 DACnetwork is led by Asociația DACnetwork Web3 Romania, with a progressive governance structure — from centralized management in early phases toward complete decentralization through DAO in mature phases.
 
-**Current Leadership**
-
-| Person | Role | Responsibility |
-|--------|------|----------------|
-| Cutaru Marius | President / Founder | Strategic vision, ecosystem leadership, external relations |
-| Cutaru Iulica | Vice President | Operational coordination, association administration |
-| Cutaru Elena | Secretary | Documentation, internal communication, records |
 
 **Governance Evolution**
 
