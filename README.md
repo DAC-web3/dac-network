@@ -2,7 +2,7 @@
 
 > Decentralized Autonomous Civilization — building a Web3 ecosystem on real human contribution.
 
-**Website:** dacnetwork.io | **X:** @DACLabs | **Status:** 🚧 Early Vision Stage | **Blockchain:** Solana
+**Website:** dacnetwork.io | **X:** @DACLabs | **Status:** 🚧 Building | $DAC Live on Solana ✅ | **Blockchain:** Solana
 
 ---
 
