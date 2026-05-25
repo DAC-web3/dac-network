@@ -2,7 +2,7 @@
 
 > Decentralized Autonomous Civilization — building a Web3 ecosystem on real human contribution.
 
-**Website:** dacnetwork.io | **X:** @DACLabs | **Status:** 🚧 Building | $DAC Live on Solana ✅ | **Blockchain:** Solana
+**Website:** dacnetwork.io | **X:** @DACLabs | **Status:** 🚧 Building | **$DAC Live on Solana** ✅ | **Blockchain:** Solana
 
 ---
 
@@ -69,15 +69,20 @@ The physical layer — edge nodes and DePIN architecture.
 ---
 
 ## The $DAC Circular Economy
-Physical Activity (rutaX)        → $DAC
-Digital Creation (DACmeta)       → $DAC
+
+Physical Activity (rutaX)          → $DAC
+Digital Creation (DACmeta)         → $DAC
 Infrastructure (DAC Smart Systems) → $DAC
 ↓
 $DAC → Used across entire ecosystem
 ↓
 0.5% fee per on-chain transaction → Deflationary supply
 
-**$DAC is a utility token and does not represent an investment.**
+**Token:** $DAC | **Standard:** Token 2022 | **Supply:** 3,000,000,000
+**Contract:** `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb`
+**Explorer:** https://solscan.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb
+
+*$DAC is a utility token and does not represent an investment.*
 
 ---
 
@@ -122,6 +127,7 @@ Contributors, thinkers, developers, and builders are welcome.
 If you want to help shape the future of decentralized society, join the DACnetwork.
 
 - 💬 Open a discussion in [Issues](https://github.com/DAC-web3/dac-network/issues)
+- 📋 Apply to collaborate → [Collaboration Form](https://docs.google.com/forms/d/e/1FAIpQLSdBRhcaV6d-CBqXNo0QDP4H6J55wKb8RLkSJJxTlXR7hkDqDg/viewform)
 - 📖 Read [CONTRIBUTING.md](./CONTRIBUTING.md)
 - 🌐 Visit [dacnetwork.io](https://dacnetwork.io)
 - 🐦 Follow [@DACLabs](https://x.com/DACLabs) on X
