@@ -6,6 +6,20 @@ Format: `[Version] — Date — Description`
 
 ---
 
+## [0.4.0] — August 2026
+
+### Added
+- DACx Beta v1.5.2 — private communication layer launched
+- DACx repository: https://github.com/DAC-web3/dacx
+- xID identity system — no phone, no email
+- Ephemeral messages — 3 min TTL after read
+- Solana self-custody wallet bound to xID
+- Voice calls (WebRTC) + push notifications (FCM)
+- WHITEPAPER.md updated — DACx added as 4th ecosystem layer
+- README.md updated — DACx added as fourth pillar
+
+---
+
 ## [0.3.0] — May 2026
 
 ### Added
@@ -51,11 +65,11 @@ Format: `[Version] — Date — Description`
 
 | Version | Target | Milestone |
 |---------|--------|-----------|
-| 0.4.0 | 2026 Q3 | rutaX beta launch |
-| 0.5.0 | 2026 Q4 | First 1,000 users |
+| 0.5.0 | 2026 Q3 | rutaX beta launch |
+| 0.6.0 | 2026 Q4 | First 1,000 users |
 | 1.0.0 | 2027 Q1 | rutaX mainnet + DACmeta beta |
 | 2.0.0 | 2028+ | Full DAO governance |
 
 ---
 
-*DACnetwork • dacnetwork.io • Versiunea 1.1 | 2026*
+*DACnetwork • dacnetwork.io • Version 1.1 | 2026*
