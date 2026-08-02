@@ -66,6 +66,17 @@ The physical layer — edge nodes and DePIN architecture.
 - DePIN model — contributors rewarded in $DAC for uptime
 - No single point of failure
 
+- ### 💬 DACx — Private Communication Layer
+> *Secure messaging. No trace.*
+
+The communication layer of DACnetwork — ephemeral 1-to-1 messaging for society members.
+- xID identity — no phone, no email required
+- Mutual contact only — bilateral consent
+- Ephemeral messages — disappear 3 min after read
+- Solana self-custody wallet bound to xID
+
+👉 [Download DACx Beta APK](https://github.com/DAC-web3/dacx/releases/latest)
+
 ---
 
 ## The $DAC Circular Economy
