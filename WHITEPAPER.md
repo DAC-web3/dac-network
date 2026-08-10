@@ -1,231 +1,301 @@
-# DACnetwork Whitepaper
+# DACnetwork Whitepaper v2.0
 ## $DAC — Token of Society
 
-**Version 1.1 | 2026**
+**Version 2.0 | 2026**
 
-> Building a decentralized digital society through verifiable human, digital and physical contributions.
+> A decentralized ecosystem on Solana where human activity, digital creation and private communication become verifiable value.
 
-Asociația DACnetwork Web3 | Bucharest, Romania | dacnetwork.io
+Asociația DACnetwork Web3 | Bucharest, Romania | dacnetwork.io | X: @DACLabs
 
-*$DAC is a utility token and does not represent an investment.*
+**DISCLAIMER (MiCA Art. 6):** $DAC is a utility token. Not an investment. Not a financial instrument. No profit guaranteed. No returns promised. Participation involves risk.
 
 ---
 
 ## Table of Contents
 
-- [Executive Summary](#executive-summary)
-- [1. Introduction](#1-introduction)
-- [2. Vision & Mission](#2-vision--mission)
-- [3. Token of Society Philosophy](#3-token-of-society-philosophy)
-- [4. Ecosystem Architecture](#4-ecosystem-architecture)
-- [5. rutaX — Proof of Activity](#5-rutax--proof-of-activity)
-- [6. DACmeta — Social Metaverse](#6-dacmeta--social-metaverse)
-- [7. DAC Smart Systems — Physical Infrastructure](#7-dac-smart-systems--physical-infrastructure)
-- [8. DACx — Private Communication Layer](#8-dacx--private-communication-layer)
-- [9. Economic Model](#9-economic-model)
-- [10. Tokenomics](#10-tokenomics)
-- [11. DePIN Integration](#11-depin-integration)
-- [12. Roadmap](#12-roadmap)
-- [13. Legal & Compliance](#13-legal--compliance)
-- [14. Team & Governance](#14-team--governance)
-- [15. Conclusion](#15-conclusion)
+- [00. Executive Summary](#00-executive-summary)
+- [01. Why DACnetwork?](#01-why-dacnetwork)
+- [02. The DACnetwork Ecosystem](#02-the-dacnetwork-ecosystem)
+- [03. The $DAC Utility Token](#03-the-dac-utility-token)
+- [04. Tokenomics & Public Presale](#04-tokenomics--public-presale)
+- [05. Governance & DAO](#05-governance--dao)
+- [06. The DAC Economic Model](#06-the-dac-economic-model)
+- [07. Security & Trust Framework](#07-security--trust-framework)
+- [08. Legal Framework & MiCA Compliance](#08-legal-framework--mica-compliance)
+- [09. Risk Management](#09-risk-management)
+- [10. Roadmap 2026-2030](#10-roadmap-2026-2030)
+- [11. Conclusion](#11-conclusion)
+- [12. Technical Architecture](#12-technical-architecture)
+- [13. $DAC Token Lifecycle](#13-dac-token-lifecycle)
+- [14. Ecosystem Participation](#14-ecosystem-participation)
+- [15. Transparency & Treasury](#15-transparency--treasury)
+- [16. DACx — Private Communication Layer](#16-dacx--private-communication-layer)
+- [17. Frequently Asked Questions](#17-frequently-asked-questions)
 
 ---
 
-## Executive Summary
+## 00. Executive Summary
 
-DACnetwork introduces $DAC — the official ecosystem token, known under the slogan *Token of Society* — built on the Solana blockchain, designed to reward real and verifiable contributions from human activity, digital creation, and physical infrastructure.
+DACnetwork is a decentralized Web3 ecosystem built on the Solana blockchain with the mission of transforming real human activity into verifiable digital value.
 
-The ecosystem integrates mobile applications, 3D creation workflows, metaverse environments, intelligent physical systems, and private communication into a unified, coordinated network.
+Unlike speculative crypto projects, DACnetwork is designed around measurable utility. Every token distributed within the ecosystem represents a real contribution made by users, creators, infrastructure operators, or community participants.
 
-DACnetwork is not a speculative crypto project. It is an ecosystem focused on measurable value, privacy-oriented architecture, and long-term sustainability.
+### Four Ecosystem Pillars
 
-> ***Technology validates value. Humans create it.***
+| # | Product | Type | Description |
+|---|---------|------|-------------|
+| 01 | rutaX | Proof of Activity | Mobile app rewarding verified physical movement with $DAC. GPS-validated, anti-fraud protected. |
+| 02 | DACmeta | Digital Society | Structured virtual environments for interaction, digital creation and decentralized marketplace. |
+| 03 | DAC Smart Systems | DePIN Infrastructure | Physical edge nodes extending DACnetwork into the real world through decentralized infrastructure. |
+| 04 | DACx | Private Communication | Ephemeral encrypted messaging with xID identity and self-custody Solana wallet. No phone. No email. |
 
----
+### The $DAC Token
 
-## 1. Introduction
+$DAC is the native utility token of the DACnetwork ecosystem. Its primary functions include access to ecosystem services, payments inside DACmeta, rewards for Proof of Activity, rewards for infrastructure contributions, digital marketplace transactions, and community governance through future DAO mechanisms.
 
-Most blockchain ecosystems reward capital or computational power, not real contribution. DACnetwork addresses this fundamental limitation by building a decentralized system where activity, creation, and infrastructure participation are the primary sources of value.
+**$DAC does not represent equity, ownership, shares, dividends or any financial claim against the issuer.**
 
-By leveraging the Solana blockchain, DACnetwork enables fast and low-cost coordination between contributors, without centralized intermediaries.
+### Token Parameters
 
-DACnetwork was born from the conviction that Web3 is not just technology — it is a new stage of social evolution. A stage where humans control technology, not the other way around.
-
-| Traditional Blockchain | DACnetwork |
-|------------------------|------------|
-| Rewards capital (staking) | Rewards real activity (PoA) |
-| Rewards computing power (mining) | Rewards creation & contribution |
-| High entry barriers | Universal access through movement + wallet |
-| Excessive energy consumption | Sustainable — human energy as resource |
-
----
-
-## 2. Vision & Mission
-
-**Vision**
-
-> *Creating a decentralized society where value is generated through real contribution in the physical world and coordinated through transparent technology.*
-
-**Mission**
-
-Building an open ecosystem that:
-- Fairly rewards real participation
-- Respects user privacy and data sovereignty
-- Connects digital and physical systems
-- Grows sustainably through community contribution
-- Provides access to technology for everyone, regardless of financial status
-
-**Core Values**
-
-| Freedom through Decentralization | Merit & Responsibility | Education before Profit |
-|----------------------------------|----------------------|------------------------|
+| Parameter | Specification |
+|-----------|---------------|
+| Token Name | DACnetwork |
+| Symbol | $DAC |
+| Blockchain | Solana Mainnet |
+| Standard | Token Extensions Program (Token-2022) |
+| Total Supply | 3,000,000,000 $DAC (fixed, immutable) |
+| Transfer Fee | 0.5% per transaction (auto-burn mechanism) |
+| Mint Authority | REVOKED — no additional tokens possible |
+| Mint Address | `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb` |
+| Explorer | https://solscan.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb |
 
 ---
 
-## 3. Token of Society Philosophy
+## 01. Why DACnetwork?
 
-The token $DAC is officially named DACnetwork with the symbol $DAC. Its slogan *Token of Society* reflects the philosophy: $DAC represents real participation in the decentralized digital society, not financial speculation.
+### The Problem
 
-Every $DAC token in circulation represents a real verified activity, a digital creation, or a contribution to the ecosystem's infrastructure.
+Today's digital economy creates enormous value, yet millions of people contribute every day without receiving fair recognition or ownership of the value they generate. People walk, create content, build communities, operate devices, share knowledge and contribute to digital ecosystems, while the economic benefits are often captured by centralized platforms.
 
-**Fundamental principles:**
-- Activity precedes reward
-- Contribution precedes accumulation
-- Utility precedes market value
+Traditional platforms monetize user activity through advertising, data collection and centralized control. Users generate value but rarely participate in the long-term growth of the ecosystems they help build.
+
+Blockchain technology introduced the possibility of digital ownership, but much of the crypto industry has focused on speculation rather than real-world utility. DACnetwork was created to address this imbalance.
+
+### Our Solution
+
+> *Real activity should create real value. Every contribution is measurable. Every verified contribution strengthens the ecosystem.*
+
+DACnetwork is a decentralized ecosystem where value is created through real participation. Instead of rewarding speculation, DACnetwork rewards measurable contribution through four interconnected pillars: Human Activity, Digital Creation, Physical Infrastructure, and Private Communication.
+
+### Core Principles
+
+- ✓ Utility before speculation
+- ✓ Transparency by default
+- ✓ Privacy by architecture
+- ✓ Community-first governance
+- ✓ Open innovation
+- ✓ Sustainable decentralization
 
 ---
 
-## 4. Ecosystem Architecture
+## 02. The DACnetwork Ecosystem
 
-DACnetwork is built on four interconnected layers plus the economic layer.
+### An Ecosystem, Not a Single Application
+
+DACnetwork is designed as a decentralized ecosystem where multiple independent products operate under one shared digital economy powered by the $DAC utility token. Each product solves a different real-world problem while contributing to the long-term growth of the ecosystem.
+
+### Ecosystem Architecture
 
 ┌─────────────────────────────────────────┐
-│ PHYSICAL LAYER │
-│ DAC Smart Systems │
-│ Edge infrastructure, DePIN, nodes │
+│ rutaX — Proof of Activity │
+│ Physical movement → $DAC │
 ├─────────────────────────────────────────┤
-│ SOCIAL LAYER │
-│ DACmeta │
-│ Digital society, VR/AR, 3D creation │
+│ DACmeta — Digital Society │
+│ VR/AR, marketplace, creation │
 ├─────────────────────────────────────────┤
-│ COMMUNICATION LAYER │
-│ DACx │
-│ Private messaging, xID, Solana wallet │
+│ DAC Smart Systems — DePIN │
+│ Edge nodes, physical infrastructure │
 ├─────────────────────────────────────────┤
-│ ACTIVITY LAYER │
-│ rutaX │
-│ Proof of Activity, GPS, $DAC rewards │
+│ DACx — Private Communication │
+│ xID, ephemeral messaging, wallet │
 ├─────────────────────────────────────────┤
-│ ECONOMIC LAYER │
-│ $DAC Token │
-│ Exchange, access, coordination │
+│ $DAC — Common Utility Token Layer │
 └─────────────────────────────────────────┘
 
+### rutaX — Proof of Activity
 
-| Layer | Product | Role |
-|-------|---------|------|
-| Activity | rutaX | Proof of Activity — movement → $DAC |
-| Physical | DAC Smart Systems | DePIN, edge, infrastructure |
-| Social | DACmeta | Digital society, VR, marketplace |
-| Communication | DACx | Private messaging, xID, wallet |
-| Economic | $DAC | Token of Society (utility) |
+rutaX transforms verified physical movement into digital value. The application rewards users for measurable real-world activity using GPS validation and advanced anti-fraud technologies. Rewarded activities include walking, running, cycling and hiking. Privacy remains a core principle — sensitive location information is processed locally whenever possible.
 
-**Value Flow:**
+### DACmeta — Digital Society
 
-Human Activity → $DAC Generation → Ecosystem Use → On-chain Transactions → 0.5% Fee
+DACmeta represents the digital social layer of DACnetwork. Rather than building a traditional gaming metaverse, DACmeta creates structured virtual environments where people, organizations and communities interact through decentralized ownership. Capabilities include virtual meeting spaces, educational environments, NFT galleries, a digital asset marketplace, and a creator economy.
 
+### DAC Smart Systems — DePIN
 
----
+DAC Smart Systems extends DACnetwork beyond software into the physical world. Edge devices perform local processing while preserving user privacy. Instead of transmitting unnecessary personal information to centralized servers, devices verify operational events and publish only cryptographic proof when required.
 
-## 5. rutaX — Proof of Activity
+### DACx — Private Communication Layer
 
-> *Move. Earn. Evolve.*
+DACx is the private communication and identity layer of DACnetwork. It enables members to communicate securely through ephemeral messaging, voice calls and a self-custody Solana wallet — all identified by a unique xID, without requiring a phone number or email address.
 
-rutaX is the central mobile application of the DACnetwork ecosystem and the foundation of the Proof-of-Activity (PoA) mechanism.
-
-**Generation Mechanism**
-
-| Parameter | Value |
-|-----------|-------|
-| Base formula | 1 $DAC per 10 km walked (GPS verified) |
-| Daily limit | Maximum 10 $DAC / user / day |
-| Blockchain | Solana (Token 2022 Standard) |
-| Validation | GPS tracking + anti-fraud algorithms |
-| Availability | Mobile app iOS & Android |
-
-**Anti-Fraud System**
-- Speed verification — movement above 20 km/h invalidated
-- Altitude validation — detects trajectory anomalies
-- Route analysis — identifies suspicious patterns
-- GPS anomaly detection — identifies GPS spoofing
-- Machine learning anti-pattern — behavioral detection in continuous evolution
+**DACx is currently live on Android (Beta v1.5.6)**
+👉 Download: www.dacnetwork.io
 
 ---
 
-## 6. DACmeta — Social Metaverse
+## 03. The $DAC Utility Token
 
-> *Digital space must expand society, not distort it.*
+### The Economic Engine of DACnetwork
 
-DACmeta represents the social layer of the DACnetwork ecosystem — an organized digital society, not a virtual world for escape.
+The $DAC token is the native utility token of the DACnetwork ecosystem. It is not designed as a speculative asset. It is designed to facilitate participation, reward contribution and enable interactions across every component of the ecosystem.
 
-**Key Features**
+### Utility Inside the Ecosystem
 
-| Social & Community | Economy & Ownership |
-|--------------------|---------------------|
-| Customizable avatars | Real digital ownership |
-| VR meetings & conferences | Direct creator monetization |
-| Communities & micro-societies | Integrated 3D Marketplace |
-| Live digital events | Premium access in $DAC |
-| DACmeta Lounge (Social VR) | Ecosystem interoperability |
-
-**Economic Model**
-- Public space — free access for all users
-- Built experiences — economic value in $DAC
-- Own creations — direct monetization by creator
+| Utility | Description |
+|---------|-------------|
+| Proof of Activity Rewards | Users earn $DAC by completing verified physical activity through rutaX |
+| Digital Marketplace Currency | Inside DACmeta, $DAC serves as the primary currency for digital transactions |
+| Infrastructure Rewards | Operators contributing verified DePIN infrastructure receive $DAC |
+| DACx Ecosystem Integration | Self-custody Solana wallet bound to xID, enabling $DAC payments |
+| Governance | Future DAO mechanisms allow eligible token holders to participate in decisions |
+| Future Staking | Future protocol upgrades may introduce voluntary staking mechanisms |
 
 ---
 
-## 7. DAC Smart Systems — Physical Infrastructure
+## 04. Tokenomics & Public Presale
 
-> *Technology must protect human freedom, not replace it.*
+### Token Supply — Permanently Fixed
 
-DAC Smart Systems represents the physical layer of the DACnetwork ecosystem.
+**Total Supply: 3,000,000,000 $DAC**
+- No additional tokens can ever be minted
+- Mint Authority has been permanently revoked
 
-**Design Principles**
+### Token Allocation
 
-| Privacy by Architecture | Human Authority | Distributed Responsibility |
-|------------------------|-----------------|---------------------------|
-| Local processing, minimized data collection | Technology assists. Humans decide. | Distributed, interoperable, auditable |
+| Category | % | Amount | Purpose |
+|----------|---|--------|---------|
+| Community Rewards | 30% | 900,000,000 | PoA rewards, campaigns, creators, governance |
+| Ecosystem Development | 25% | 750,000,000 | rutaX, DACmeta, DAC Smart Systems, DACx |
+| Treasury | 15% | 450,000,000 | Security, legal, infrastructure, reserves |
+| Team & Advisors | 15% | 450,000,000 | 12-month cliff + 36-month monthly vesting |
+| Public Presale | 10% | 300,000,000 | Ecosystem development + initial liquidity |
+| Initial Liquidity | 5% | 150,000,000 | DEX liquidity — DAC/SOL pair |
+| **TOTAL** | **100%** | **3,000,000,000 $DAC** | Fixed supply — immutable |
 
-**Technical Components**
-- Autonomous edge nodes with local processing
-- DePIN integration for economic validation
-- Compatibility with standard IoT protocols
-- No single point of failure
+### Deflationary Burn Mechanism
+
+Every on-chain transfer automatically retains 0.5% of the transferred amount via Token-2022 Transfer Fee Extension. Collected tokens are periodically sent to the Solana Incinerator where they are permanently destroyed. Every burn transaction is publicly announced and verifiable on-chain.
 
 ---
 
-## 8. DACx — Private Communication Layer
+## 05. Governance & DAO
 
-> *Secure messaging. No trace.*
+### From Leadership to Community Governance
 
-**DACx** is the private communication layer of the DACnetwork ecosystem — the channel through which members communicate directly, by mutual consent, and ephemerally.
+DACnetwork is founded on the principle that decentralized ecosystems should gradually evolve from centralized coordination to community governance.
+
+### Governance Evolution
+
+| Phase | Status | Description |
+|-------|--------|-------------|
+| Phase 0 — Foundation | ✅ Done | Governance coordinated by the DACnetwork Web3 Association |
+| Phase 1 — Community Participation | 🔄 In progress | Community begins participating in non-binding governance proposals |
+| Phase 2 — Hybrid Governance | Planned | Selected strategic decisions become subject to community voting |
+| Phase 3 — DAO Governance | Planned | Full DAO implementation — eligible $DAC holders vote on-chain |
+
+---
+
+## 06. The DAC Economic Model
+
+### Building a Circular Digital Economy
+
+The DACnetwork economy follows a simple principle:
+
+Humans contribute.
+Devices measure.
+Edge systems process.
+Blockchain verifies.
+The ecosystem rewards.
+---
+
+## 13. $DAC Token Lifecycle
+
+### Burn Mechanism — Step by Step
+
+**Step 1 — Collection**
+The 0.5% transfer fees accumulate automatically in the designated Burn Wallet via Token-2022 Transfer Fee Extension.
+
+**Step 2 — Public Announcement**
+The project announces the planned burn through official channels (X @DACLabs) before execution.
+
+**Step 3 — Permanent Incineration**
+Accumulated tokens are sent to the Solana Incinerator address — permanently destroyed.
+
+**Step 4 — Public Verification**
+Transaction hash is published. Anyone can verify the burn on Solscan.
+
+---
+
+## 14. Ecosystem Participation
+
+### Four Paths of Participation
+
+| Path | Product | How |
+|------|---------|-----|
+| Physical Activity | rutaX | Walk, run, cycle and earn $DAC through GPS-validated Proof of Activity |
+| Digital Creation | DACmeta | Create 3D assets, NFTs, virtual spaces and interact in the digital society |
+| Physical Infrastructure | DAC Smart Systems | Operate DePIN nodes and contribute physical infrastructure |
+| Private Communication | DACx | Communicate securely with xID identity and built-in Solana wallet |
+
+---
+
+## 15. Transparency & Treasury
+
+### Treasury Management Principles
+
+| Principle | Description |
+|-----------|-------------|
+| Transparency | Significant treasury activity is publicly identifiable whenever possible |
+| Responsibility | Resources allocated according to ecosystem priorities |
+| Sustainability | Treasury decisions consider long-term ecosystem development |
+| Accountability | Major treasury decisions documented and subject to community oversight |
+
+> *If it can be verified, make it verifiable.*
+> *If resources move, show the movement.*
+> *If tokens are burned, prove the burn.*
+> *If the ecosystem changes, communicate the change.*
+
+---
+
+## 16. DACx — Private Communication Layer
 
 > *Communication must not become an archive. It must remain consent and moment.*
 
-**Download:** [DACx Beta v1.5.2 — Android APK](https://github.com/DAC-web3/dacx/releases/latest)
+**Version:** 1.5.6 | **Platform:** Android | **Status:** 🚀 Beta Live
 
-### Identity — xID
+👉 **Download:** www.dacnetwork.io | **Repository:** https://github.com/DAC-web3/dacx
 
-Each DACx account receives a unique 9-digit **xID** (format: `123 456 789`).
+### 16.1 What is DACx?
 
-- No phone number required
-- No email required
-- Authentication: xID + PIN (4–6 digits)
-- Registration automatically creates a Solana wallet bound to xID + PIN
+DACx is the private communication and identity layer of the DACnetwork ecosystem. It is how DACnetwork members speak to each other — directly, by mutual consent, and ephemerally.
 
-**xID as universal DACnetwork identity:**
+DACx solves one of the most fundamental problems in digital communication: the permanent surveillance economy. Traditional messaging platforms require personal identification, store conversations indefinitely and monetize user data. DACx was built on the opposite philosophy.
+
+### 16.2 Core Features
+
+| Feature | Technology | Description |
+|---------|-----------|-------------|
+| xID Identity | 9-digit ID | Unique network identity — no phone number, no email required |
+| Mutual Contact System | Consent-based | You can only receive messages from people you have both mutually added |
+| Ephemeral Messages | Auto-delete | Text, voice messages and photos disappear 3 minutes after being read |
+| Solana Wallet | Self-custody | Built-in wallet bound to xID + PIN. Full control of $DAC assets |
+| Voice Calls | WebRTC | Encrypted real-time voice calls with push notifications |
+| Push Notifications | FCM | Receive notifications when the app is closed |
+| OTA Updates | expo-updates | Automatic updates — no reinstall needed (from v1.5.6) |
+
+### 16.3 The xID System
+
+At the core of DACx is the xID — a 9-digit unique network identity that replaces traditional personal identification methods.
 
 xID
 ├─ DACx (messaging + wallet)
@@ -233,213 +303,112 @@ xID
 ├─ DACmeta (social / VR presence)
 └─ DAC Smart Systems (nodes / infrastructure)
 
+- ✓ No Phone Required — Privacy from the first step
+- ✓ No Email Required — Zero personal data collected
+- ✓ Linked to Solana Wallet — xID + $DAC in one identity
 
-### Core Features
+### 16.4 Ephemeral Communication Philosophy
 
-| Feature | Description |
-|---------|-------------|
-| 🔑 xID Identity | 9-digit network identity — no phone, no email |
-| 🤝 Mutual Contact | Bilateral consent required to communicate |
-| ⏱️ Ephemeral Messages | Disappear 3 minutes after read/view |
-| 💰 Solana Wallet | Self-custody, bound to xID + PIN |
-| 📞 Voice Calls | WebRTC + push notifications |
-| 🔔 Push Notifications | FCM when app is closed |
+DACx is built on a fundamental principle: communication belongs to the moment it was created, not to a permanent archive controlled by a platform.
 
-### Social Trust Model
+Ephemeral messaging means that once a message has been read, it disappears after 3 minutes. There is no history. There is no server-side storage of conversation content.
 
-- **Mutual contact** — to receive messages, both users must have added each other
-- **QR scan** or manual xID entry to add contacts
-- **Block / remove** — full sovereignty over your relationship circle
-- **No stranger entry** — opposite of "anyone with your number can message you"
+This is not a limitation. It is a feature.
 
-### Ephemeral Messages
+### 16.5 Built-in Solana Wallet
 
-Messages (text, voice, photos) are deleted **3 minutes** after they have been read, heard, or viewed.
+DACx includes a self-custody Solana wallet directly integrated into the application:
 
-DACx rejects the model "your archive is our product."
-Short traces = respect for intimacy + privacy by architecture.
+- **Self-custody:** only you control your private keys
+- **PIN-secured:** protected by your personal code
+- **Solana-native:** full compatibility with the $DAC ecosystem
+- **xID-bound:** wallet and identity in one
 
-**Honest beta limitations:**
-- Messages delivered through authenticated server (JWT + WebSocket)
-- End-to-end encryption (E2EE) is on the roadmap — not yet implemented in beta
-- Ephemeral ≠ impossible for authorities to intercept in real time on the server
+### 16.6 DACx in the Ecosystem
 
-### Technical Architecture
+| Layer | Product | Role |
+|-------|---------|------|
+| Activity | rutaX | Proof of Activity — movement generates $DAC |
+| Physical | DAC Smart Systems | DePIN, edge computing, infrastructure |
+| Social | DACmeta | Digital society, VR, marketplace, creation |
+| Communication | DACx | Private messaging, xID identity, Solana wallet |
+| Economic | $DAC | Token of Society — common utility layer |
 
-┌──────────────────┐ HTTPS + WSS ┌─────────────────────────┐
-│ DACx Mobile │ ◄──────────────────► │ DACx Backend │
-│ Expo / RN │ │ Node.js + Socket.io │
-│ Android / iOS │ │ SQLite (short retention)│
-└────────┬─────────┘ │ JWT Auth │
-│ └───────────┬─────────────┘
-│ FCM push │
-▼ ▼
-Firebase Cloud Messaging Solana (wallet / $DAC)
+### 16.7 DACx Roadmap
 
-
-### $DAC Integration Roadmap
-
-| $DAC Utility | DACx Integration |
-|--------------|------------------|
-| DACmeta Lounge access | Invites via chat |
-| 3D Marketplace | Share assets via DACx |
-| Advanced features | Optional premium |
-| DAO governance | Private discussion + votes |
-
-> *Basic communication must not become "pay-to-speak". $DAC unlocks extensions, not the fundamental right to communicate.*
-
-### DACx Roadmap
-
-| Phase | Milestone |
-|-------|-----------|
-| Phase 0 ✅ | MVP, server, xID identity |
-| Phase 1 🚧 | Public beta v1.5.2, 1,000+ xIDs |
-| Phase 2 | Mainnet wallet, multi-app xID |
-| Phase 3 | E2EE encryption, $DAC payments in chat |
-| Phase 4 | DAO-voted messaging policies |
-
-### Differentiation
-
-| Dimension | Classic Messengers | DACx |
-|-----------|--------------------|------|
-| Identity | Phone / email | DACnetwork xID |
-| History | Permanent (cloud) | Ephemeral post-consumption |
-| Stranger entry | Possible | Mutual contact only |
-| Purpose | Global commercial | DACnetwork society |
-| Data as product | Often | Rejected by design |
-
----
-
-## 9. Economic Model
-
-**Four Contribution Models**
-
-| Model | Product | Contribution |
-|-------|---------|-------------|
-| Proof of Activity | rutaX | Physical movement → $DAC |
-| Proof of Creation | DACmeta | Digital creation → $DAC |
-| Proof of Infrastructure | DAC Smart Systems | Node uptime → $DAC |
-| Proof of Communication | DACx | Network participation → ecosystem value |
-
-**Circular Economic Flow**
-
-Physical Activity (rutaX) → Generate $DAC
-Digital Creation (DACmeta) → Generate $DAC
-Infrastructure (DAC Smart Systems) → Generate $DAC
-↓
-$DAC → Used across entire ecosystem
-↓
-0.5% fee per on-chain transaction
-↓
-Reduced circulating supply → Economic stabilization
-
-
-**$DAC Utility Zones**
-- Premium access: VR rooms, special events
-- 3D Marketplace transactions
-- NFT minting
-- DACx premium features
-- DAO governance voting
-
----
-
-## 10. Tokenomics
-
-| Specification | Value |
-|---------------|-------|
-| Token Name | DACnetwork |
-| Symbol | $DAC |
-| Slogan | Token of Society |
-| Blockchain | Solana |
-| Standard | Token 2022 |
-| Contract | `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb` |
-| Explorer | https://solscan.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb |
-| Total Supply | 3,000,000,000 $DAC |
-| Fee Mechanism | 0.5% per on-chain transaction (auto-burn) |
-| Daily PoA Limit | 10 $DAC per user per day |
-
-**Supply Distribution**
-
-| Category | % | $DAC Amount |
-|----------|---|-------------|
-| Community Rewards | 40% | 1,200,000,000 |
-| Ecosystem Development | 30% | 900,000,000 |
-| Team & Advisors | 20% | 600,000,000 |
-| Strategic Partnerships | 10% | 300,000,000 |
-
----
-
-## 11. DePIN Integration
-
-DACnetwork integrates a DePIN (Decentralized Physical Infrastructure Network) model through DAC Smart Systems.
-
-- Physical nodes act as network nodes
-- Infrastructure contributions measurable on-chain
-- $DAC rewards for uptime and verified contributions
-- Physical decentralization beyond software
-
----
-
-## 12. Roadmap
-
-| Phase | Period | Objectives |
+| Phase | Status | Milestones |
 |-------|--------|------------|
-| Phase 0 ✅ | 2026 Q1-Q2 | Foundation, whitepaper, community, DACx MVP |
-| Phase 1 🚧 | 2026 Q3-Q4 | rutaX beta, DACx public beta v1.5.2, 1,000 users |
-| Phase 2 | 2027 Q1-Q2 | rutaX mainnet, $DAC Solana mainnet, DACmeta beta |
-| Phase 3 | 2027 Q3-Q4 | Expansion, DePIN, 10,000+ users, E2EE DACx |
-| Phase 4 | 2028+ | Full DAO governance, autonomous ecosystem |
+| Phase 0 | ✅ Done | MVP, server infrastructure, xID identity, Android Beta v1.5.6 live, OTA updates |
+| Phase 1 | 🔄 In progress | Public beta, 1,000+ xIDs, iOS version, expanded anti-spam |
+| Phase 2 | Planned | Mainnet wallet integration, multi-app xID, DACx public launch |
+| Phase 3 | Planned | End-to-end encryption, $DAC payments within DACx, group communication |
+| Phase 4 | Planned | DAO governance integration, full interoperability |
+
+### 16.8 How to Get DACx
+
+1. Download the APK from **www.dacnetwork.io**
+2. Go to Android Settings → Security → Enable "Install unknown apps"
+3. Open the APK and complete installation
+4. Launch DACx and create your xID
+5. Set your personal PIN and start communicating
+
+### 16.9 Privacy Commitment
+
+- DACx does not collect phone numbers
+- DACx does not collect email addresses
+- DACx does not store conversation content on centralized servers
+- DACx does not sell user data
+- DACx does not monetize user behavior
 
 ---
 
-## 13. Legal & Compliance
+## 17. Frequently Asked Questions
 
-| Legal Aspect | Details |
-|--------------|---------|
-| Legal Entity | Asociația DACnetwork Web3 — non-profit NGO |
-| Jurisdiction | Romania, Bucharest |
-| Token Framework | MiCA (EU Regulation 2023/1114) |
-| Token Classification | Utility token — not an investment |
-| Data Protection | GDPR compliant — privacy by design |
+**Q: What is DACnetwork?**
+A: DACnetwork is a decentralized Web3 ecosystem built around real-world participation, digital creation, physical infrastructure and private communication. The ecosystem combines rutaX, DACmeta, DAC Smart Systems and DACx, all sharing the $DAC utility token.
 
-> ***DISCLAIMER: $DAC is a utility token and does not represent an investment.***
+**Q: What is $DAC?**
+A: $DAC is the native utility token of the DACnetwork ecosystem, issued on Solana using the Token-2022 standard. It is designed to facilitate participation, reward contribution and enable interactions across all ecosystem components.
 
----
+**Q: What is the total supply of $DAC?**
+A: 3,000,000,000 $DAC — permanently fixed. The Mint Authority has been revoked. No additional tokens can ever be created.
 
-## 14. Team & Governance
+**Q: What is the $DAC Mint Address?**
+A: `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb` — Always verify this address before interacting with $DAC.
 
-| Person | Role |
-|--------|------|
-| Cutaru Marius | President / Founder |
-| Cutaru Iulica | Vice President |
-| Cutaru Elena | Secretary |
+**Q: Does $DAC have a transfer fee?**
+A: Yes. A 0.5% transfer fee is automatically retained on eligible transfers via Token-2022. These tokens accumulate in the Burn Wallet and are permanently incinerated on the Solana blockchain.
 
-**Governance Evolution**
-- Phase 0-2: Centralized — Board of Directors
-- Phase 3: Community voting introduced
-- Phase 4+: Full DAO governance through $DAC
+**Q: What is rutaX?**
+A: rutaX is the Proof-of-Activity mobile application. Users earn 1 $DAC per 10 km of GPS-validated physical activity, with a maximum of 10 $DAC per user per day.
 
----
+**Q: What is DACx?**
+A: DACx is the private communication layer of DACnetwork. It enables ephemeral messaging, voice calls and a built-in self-custody Solana wallet identified by a 9-digit xID — no phone or email required. Currently live on Android Beta v1.5.6.
 
-## 15. Conclusion
+**Q: What is an xID?**
+A: An xID is a 9-digit unique network identity in DACx that replaces traditional personal identification. No phone number or email address is required. The xID is linked to a self-custody Solana wallet.
 
-DACnetwork represents a model where:
-- Human activity becomes validated capital
-- Infrastructure supports autonomy
-- Digital society is organized
-- Private communication respects human dignity
-- The economy is built on real utility
+**Q: What is DACmeta?**
+A: DACmeta is the digital-society component of DACnetwork — structured virtual environments for interaction, creation and exchange of digital assets in a $DAC-powered economy.
 
-> *Humans before technology.*
-> *Freedom through decentralization.*
-> *Merit before position.*
-> *Education before profit.*
-> *Community before ego.*
+**Q: What is DAC Smart Systems?**
+A: DAC Smart Systems is the physical infrastructure (DePIN) component of DACnetwork. Physical edge nodes contribute measurable infrastructure activity to the network, verified on-chain.
+
+**Q: Does $DAC guarantee financial returns?**
+A: No. DACnetwork does not guarantee price appreciation, financial returns, liquidity or exchange listings. $DAC is a utility token. Participation involves risk.
+
+**Q: Where can I verify $DAC on-chain?**
+A: All transactions are verifiable on Solana. Use Solscan with the official Mint Address: `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb`
+
+**Q: Where can I download DACx?**
+A: DACx Android Beta APK is available at www.dacnetwork.io
 
 ---
 
 **DACnetwork • $DAC — Token of Society • 2026**
 
-Asociația DACnetwork Web3 | Bucharest, Romania | dacnetwork.io | X: @DACLabs
+Asociația DACnetwork Web3 | Bucharest, Romania
 
-*$DAC is a utility token and does not represent an investment.*
+www.dacnetwork.io | X: @DACLabs | Telegram: t.me/DACNetwork
+
+*$DAC is a utility token. Not an investment. Published under Regulation (EU) 2023/1114 — MiCA.*
