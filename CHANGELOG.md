@@ -6,6 +6,16 @@ Format: `[Version] — Date — Description`
 
 ---
 
+## [0.5.0] — August 2026
+
+### Added
+- DACx v1.5.6 — OTA update system live
+- expo-updates production channel enabled
+- Automatic JS/UI updates without APK reinstall
+- OTA update documentation added to DACx README
+
+---
+
 ## [0.4.0] — August 2026
 
 ### Added
@@ -65,8 +75,8 @@ Format: `[Version] — Date — Description`
 
 | Version | Target | Milestone |
 |---------|--------|-----------|
-| 0.5.0 | 2026 Q3 | rutaX beta launch |
-| 0.6.0 | 2026 Q4 | First 1,000 users |
+| 0.6.0 | 2026 Q3 | rutaX beta launch |
+| 0.7.0 | 2026 Q4 | First 1,000 users |
 | 1.0.0 | 2027 Q1 | rutaX mainnet + DACmeta beta |
 | 2.0.0 | 2028+ | Full DAO governance |
 
