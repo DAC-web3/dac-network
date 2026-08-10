@@ -6,6 +6,21 @@ Format: `[Version] — Date — Description`
 
 ---
 
+## [0.6.0] — August 2026
+
+### Added
+- WHITEPAPER.md v2.0 — full 17-section whitepaper published
+- Public Presale section added
+- Risk Management section added
+- Transparency & Treasury section added
+- $DAC Token Lifecycle section added
+- Ecosystem Participation section added
+- FAQ section added (17 questions)
+- DACx updated to v1.5.6 with OTA updates in whitepaper
+- Tokenomics updated — 6 allocation categories
+
+---
+
 ## [0.5.0] — August 2026
 
 ### Added
@@ -45,7 +60,7 @@ Format: `[Version] — Date — Description`
 ## [0.2.0] — May 2026
 
 ### Added
-- WHITEPAPER.md — full technical and economic whitepaper
+- WHITEPAPER.md v1.0 — initial whitepaper
 - ROADMAP.md — phased development plan 2026–2028
 - GOVERNANCE.md — DAO governance model
 - CONTRIBUTING.md — contributor guidelines
@@ -53,11 +68,8 @@ Format: `[Version] — Date — Description`
 - PROGRESS.md — live progress tracking
 - VISION.md — core philosophy and vision
 - START_HERE.md — onboarding document
-
-### Defined
-- Three contribution pillars: rutaX, DACmeta, DAC Smart Systems
-- Circular $DAC economy model
-- Proof of Activity, Proof of Creation, Proof of Infrastructure
+- Three contribution pillars defined: rutaX, DACmeta, DAC Smart Systems
+- Circular $DAC economy model defined
 
 ---
 
@@ -75,11 +87,11 @@ Format: `[Version] — Date — Description`
 
 | Version | Target | Milestone |
 |---------|--------|-----------|
-| 0.6.0 | 2026 Q3 | rutaX beta launch |
-| 0.7.0 | 2026 Q4 | First 1,000 users |
+| 0.7.0 | 2026 Q3 | rutaX beta launch |
+| 0.8.0 | 2026 Q4 | First 1,000 users |
 | 1.0.0 | 2027 Q1 | rutaX mainnet + DACmeta beta |
 | 2.0.0 | 2028+ | Full DAO governance |
 
 ---
 
-*DACnetwork • dacnetwork.io • Version 1.1 | 2026*
+*DACnetwork • dacnetwork.io • Whitepaper v2.0 | 2026*
