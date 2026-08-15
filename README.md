@@ -120,6 +120,7 @@ $DAC → Used across entire ecosystem
 | [CONTRIBUTING.md](./CONTRIBUTING.md) | How to contribute |
 | [TEAM.md](./TEAM.md) | Founding team |
 | [PROGRESS.md](./PROGRESS.md) | Live progress updates |
+| [TOKENOMICS.md](./TOKENOMICS.md) | Official $DAC token allocation structure |
 
 ---
 
