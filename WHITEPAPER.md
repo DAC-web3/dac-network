@@ -172,15 +172,28 @@ The $DAC token is the native utility token of the DACnetwork ecosystem. It is no
 
 ### Token Allocation
 
-| Category | % | Amount | Purpose |
-|----------|---|--------|---------|
-| Community Rewards | 30% | 900,000,000 | PoA rewards, campaigns, creators, governance |
-| Ecosystem Development | 25% | 750,000,000 | rutaX, DACmeta, DAC Smart Systems, DACx |
-| Treasury | 15% | 450,000,000 | Security, legal, infrastructure, reserves |
-| Team & Advisors | 15% | 450,000,000 | 12-month cliff + 36-month monthly vesting |
-| Public Presale | 10% | 300,000,000 | Ecosystem development + initial liquidity |
-| Initial Liquidity | 5% | 150,000,000 | DEX liquidity — DAC/SOL pair |
-| **TOTAL** | **100%** | **3,000,000,000 $DAC** | Fixed supply — immutable |
+| Category | % | Amount ($DAC) |
+|----------|---|---------------|
+| Community Rewards | 30% | 900,000,000 |
+| Ecosystem Development | 25% | 750,000,000 |
+| Treasury | 15% | 450,000,000 |
+| Team & Advisors | 15% | 450,000,000 |
+| Public Presale | 10% | 300,000,000 |
+| Initial Liquidity | 5% | 150,000,000 |
+| **TOTAL** | **100%** | **3,000,000,000** |
+
+> Full tokenomics breakdown with subcategories:
+> 👉 [TOKENOMICS.md](./TOKENOMICS.md)
+
+### Documentation Status
+
+| Item | Status |
+|------|--------|
+| Allocation Structure | ✅ Defined |
+| Presale Parameters | 🔄 TBD |
+| DEX | 🔄 TBD |
+| TGE Date | 🔄 TBD |
+| Vesting Schedule | 🔄 TBD |
 
 ### Deflationary Burn Mechanism
 
