@@ -113,14 +113,18 @@ $DAC → Used across entire ecosystem
 
 | Document | Description |
 |----------|-------------|
-| [WHITEPAPER.md](./WHITEPAPER.md) | Full technical and economic whitepaper |
-| [VISION.md](./VISION.md) | Core vision and philosophy |
-| [ROADMAP.md](./ROADMAP.md) | Detailed development roadmap |
-| [GOVERNANCE.md](./GOVERNANCE.md) | DAO governance model |
-| [CONTRIBUTING.md](./CONTRIBUTING.md) | How to contribute |
-| [TEAM.md](./TEAM.md) | Founding team |
-| [PROGRESS.md](./PROGRESS.md) | Live progress updates |
+| [START_HERE.md](./START_HERE.md) | Begin here — onboarding guide for all contributors |
+| [WHITEPAPER.md](./WHITEPAPER.md) | Full technical and economic whitepaper v2.0 |
+| [ARCHITECTURE.md](./ARCHITECTURE.md) | Ecosystem layers and component status |
 | [TOKENOMICS.md](./TOKENOMICS.md) | Official $DAC token allocation structure |
+| [ROADMAP.md](./ROADMAP.md) | Development roadmap 2026-2030 |
+| [GOVERNANCE.md](./GOVERNANCE.md) | DAO governance model |
+| [SECURITY.md](./SECURITY.md) | Security policy and vulnerability reporting |
+| [CONTRIBUTING.md](./CONTRIBUTING.md) | How to contribute |
+| [CHANGELOG.md](./CHANGELOG.md) | Version history |
+| [PROGRESS.md](./PROGRESS.md) | Live progress updates |
+| [TEAM.md](./TEAM.md) | Founding team |
+| [VISION.md](./VISION.md) | Core vision and philosophy |
 
 ---
 
