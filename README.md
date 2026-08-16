@@ -89,16 +89,20 @@ The physical layer — edge nodes and DePIN architecture.
 ---
 
 ### 💬 DACx — Private Communication Layer
-> *Secure messaging. No trace.*
+> *Ephemeral messaging. Honest about what we store.*
 
 **Status:** ✅ BETA — Android v1.5.6
 
 The communication layer of DACnetwork.
 - xID identity — no phone, no email required
-- Mutual contact only — bilateral consent
+- Message requests — add by QR or xID; they accept or ignore
 - Ephemeral messages — disappear 3 min after read
-- Solana self-custody wallet bound to xID
+- Devnet wallet — new accounts create the key on the phone
+- 12 words shown at signup — restore is not available yet
 - OTA updates — automatic, no reinstall needed
+- Voice calls are not offered in the current UI
+
+Not $DAC mainnet. Not Phantom-style self-custody until restore exists.
 
 👉 **Download:** www.dacnetwork.io
 👉 **Repository:** https://github.com/DAC-web3/dacx
