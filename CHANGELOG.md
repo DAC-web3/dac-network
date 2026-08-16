@@ -5,7 +5,15 @@ All notable changes to DACnetwork are documented here.
 Format: `[Version] — Date — Description`
 
 ---
+## [0.8.0] — August 2026
 
+### Updated
+- README.md — ecosystem status table, $DAC status clarified
+- ROADMAP.md — $DAC token status vs ecosystem milestones clarified
+- PROGRESS.md — full progress update August 2026
+- DACx README — source code status added, feature table updated
+
+---
 ## [0.7.0] — August 2026
 
 ### Added
