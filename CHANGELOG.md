@@ -3,6 +3,26 @@
 All notable changes to DACnetwork are documented here.
 
 Format: `[Version] — Date — Description`
+---
+## [0.8.1] — 16 August 2026
+
+### Added
+- DACx OTA on runtime 1.5.6 (no new APK)
+- Home glass header, transparent logo, social footer
+- Full-screen QR; accepts `dacx://add/…` and plain xID
+- New accounts: on-device Solana key, 12-word display + 3-word confirm
+- Wallet DEVNET badge and honest copy
+
+### Changed
+- Chat unread / composer / Android back behavior
+- PIN: single field, 4–6 digits
+- dacx README aligned with live status (no false self-custody, no live voice calls)
+
+### Not shipped
+- Phrase restore
+- E2EE
+- $DAC mainnet in DACx
+- Voice calls (remain hidden)
 
 ---
 ## [0.8.0] — August 2026
