@@ -14,6 +14,7 @@ Updated regularly as milestones are reached.
 | rutaX | 🔄 IN DEVELOPMENT | MVP in progress |
 | DACmeta | 📋 PLANNED | Prototype planning stage |
 | DAC Smart Systems | 🔬 RESEARCH | Node design stage |
+| DACx | ✅ BETA | Android v1.5.6 — wallet + restore live |
 
 ---
 
@@ -27,7 +28,7 @@ Updated regularly as milestones are reached.
 - ✅ QR: full-screen camera; `dacx://add/…` and plain xID
 - ✅ New accounts: key created on device, 12 words + 3-word confirm
 - ✅ Wallet badge DEVNET — not $DAC mainnet
-- ✅ Phrase restore not shipped — words are preparation only
+- ✅ Phrase restore live — same xID or new xID, same Solana address; phrase stays on device
 - ✅ Voice calls remain hidden
 - ✅ dacx README aligned with live status
 - ✅ DACx OTA Security & UI Premium update live
@@ -50,7 +51,6 @@ Updated regularly as milestones are reached.
 - 🔄 rutaX MVP development
 - 🔄 DACmeta Lounge prototype planning
 - 🔄 Community channels launch preparation
-- 🔄 DACx phrase restore (next)
 
 ---
 
@@ -91,7 +91,6 @@ Updated regularly as milestones are reached.
 | Priority | Item | Status |
 |----------|------|--------|
 | High | rutaX MVP beta | 🔄 In progress |
-| High | DACx phrase restore | 📋 Next |
 | High | Community channels launch | 🔄 Planned |
 | Medium | DACmeta Lounge prototype | 📋 Planned |
 | Medium | DACx iOS version | 📋 Planned |
