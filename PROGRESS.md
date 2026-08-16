@@ -5,22 +5,23 @@ Updated regularly as milestones are reached.
 
 ---
 
-## Current Status — August 2026
-
 | Component | Status | Notes |
 |-----------|--------|-------|
-| $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022 |
-| DACx | ✅ BETA | Android v1.5.6 — OTA 16 Aug live |
- rutaX | 🔄 IN DEVELOPMENT | Devnet API live — 5/user/day, 50k/network |
+| $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022. Mint + freeze revoked |
+| DACx | ✅ BETA | Android v1.5.6 — wallet, restore, Link rutaX |
+| rutaX | 🔄 IN DEVELOPMENT | Devnet API live — 5/user/day, 50k/network |
 | DACmeta | 📋 PLANNED | Prototype planning stage |
 | DAC Smart Systems | 🔬 RESEARCH | Node design stage |
-| DACx | ✅ BETA | Android v1.5.6 — wallet + restore live |
 
 ---
 
 ## August 2026
 
 ### Completed
+- ✅ rutaX Devnet: max 5 $DAC/user/day, max 50,000 $DAC/network/day
+- ✅ rutaX cash-out: vault ATA check, ledger debit before tx, signature idempotency
+- ✅ xID link: DACx Settings → Link rutaX (signed attest). Typed xID rejected
+- ✅ Public docs: daily cap 10 → 5 to match live API
 - ✅ DACx OTA 16 Aug (runtime 1.5.6, no new APK)
 - ✅ Home: glass header, transparent logo, social footer
 - ✅ Chat: unread fix, composer reset, Android back stays in-app
@@ -46,10 +47,7 @@ Updated regularly as milestones are reached.
 - ✅ ROADMAP.md updated — $DAC status clarified
 - ✅ README.md updated — ecosystem status table
 - ✅ DACnetwork website live — dacnetwork.io
-- ✅ rutaX Devnet: max 5 $DAC/user/day, max 50,000 $DAC/network/day
-- ✅ rutaX cash-out: vault ATA check, ledger debit before tx, signature idempotency
-- ✅ xID link: DACx Settings → Link rutaX (signed attest). Typed xID rejected
-- ✅ Public docs: daily cap 10 → 5 to match live API
+
 
 ### In Progress
 - 🔄 rutaX MVP development
