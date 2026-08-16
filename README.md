@@ -98,11 +98,13 @@ The communication layer of DACnetwork.
 - Message requests — add by QR or xID; they accept or ignore
 - Ephemeral messages — disappear 3 min after read
 - Devnet wallet — new accounts create the key on the phone
-- 12 words shown at signup — restore is not available yet
+- 12 words recover the wallet — restore is live
+- Restore: same xID or a new xID, same Solana address
+- Phrase never sent to the server
 - OTA updates — automatic, no reinstall needed
 - Voice calls are not offered in the current UI
 
-Not $DAC mainnet. Not Phantom-style self-custody until restore exists.
+Not $DAC mainnet. Old accounts still use xID + PIN.
 
 👉 **Download:** www.dacnetwork.io
 👉 **Repository:** https://github.com/DAC-web3/dacx
