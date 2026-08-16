@@ -10,7 +10,7 @@ Updated regularly as milestones are reached.
 | Component | Status | Notes |
 |-----------|--------|-------|
 | $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022 |
-| DACx | ✅ BETA | Android v1.5.6 — OTA updates active |
+| DACx | ✅ BETA | Android v1.5.6 — OTA 16 Aug live |
 | rutaX | 🔄 IN DEVELOPMENT | MVP in progress |
 | DACmeta | 📋 PLANNED | Prototype planning stage |
 | DAC Smart Systems | 🔬 RESEARCH | Node design stage |
@@ -20,6 +20,16 @@ Updated regularly as milestones are reached.
 ## August 2026
 
 ### Completed
+- ✅ DACx OTA 16 Aug (runtime 1.5.6, no new APK)
+- ✅ Home: glass header, transparent logo, social footer
+- ✅ Chat: unread fix, composer reset, Android back stays in-app
+- ✅ PIN: single field, 4–6 digits
+- ✅ QR: full-screen camera; `dacx://add/…` and plain xID
+- ✅ New accounts: key created on device, 12 words + 3-word confirm
+- ✅ Wallet badge DEVNET — not $DAC mainnet
+- ✅ Phrase restore not shipped — words are preparation only
+- ✅ Voice calls remain hidden
+- ✅ dacx README aligned with live status
 - ✅ DACx OTA Security & UI Premium update live
 - ✅ PIN Vault — required on every app open
 - ✅ Privacy cover — app switcher shows only logo
@@ -34,12 +44,13 @@ Updated regularly as milestones are reached.
 - ✅ START_HERE.md updated — full onboarding guide
 - ✅ ROADMAP.md updated — $DAC status clarified
 - ✅ README.md updated — ecosystem status table
+- ✅ DACnetwork website live — dacnetwork.io
 
 ### In Progress
 - 🔄 rutaX MVP development
 - 🔄 DACmeta Lounge prototype planning
 - 🔄 Community channels launch preparation
-- 🔄 DACnetwork website development
+- 🔄 DACx phrase restore (next)
 
 ---
 
@@ -80,7 +91,7 @@ Updated regularly as milestones are reached.
 | Priority | Item | Status |
 |----------|------|--------|
 | High | rutaX MVP beta | 🔄 In progress |
-| High | DACnetwork website launch | 🔄 In progress |
+| High | DACx phrase restore | 📋 Next |
 | High | Community channels launch | 🔄 Planned |
 | Medium | DACmeta Lounge prototype | 📋 Planned |
 | Medium | DACx iOS version | 📋 Planned |
@@ -102,4 +113,4 @@ All on-chain activity is publicly verifiable:
 ---
 
 *DACnetwork • Asociația DACnetwork Web3 • București, România*
-*dacnetwork.io • Updated: August 2026*
+*dacnetwork.io • Updated: 16 August 2026*
