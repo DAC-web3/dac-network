@@ -130,17 +130,24 @@ DACx is the private communication and identity layer of DACnetwork.
 
 **Currently live:**
 - xID identity — 9-digit unique identity, no phone or email
-- Mutual contact system — bilateral consent required
+- Message requests — add by QR or xID; they accept or ignore
 - Ephemeral messages — disappear 3 minutes after read
-- Solana self-custody wallet — bound to xID + PIN
-- Voice calls — WebRTC
+- Solana wallet on **Devnet** — new accounts create the key on the phone
+- 12-word phrase shown at signup — **restore is not available yet**
 - Push notifications — FCM
 - OTA updates — automatic, no reinstall needed
-- PIN Vault — required on every app open
+- PIN lock — required on every app open (4–6 digits)
 - Privacy cover — app switcher shows only logo
 - Auto-lock — configurable timer
 - 24 emoji reactions + Delete for both
 - Custom SVG icon set
+
+**Not offered in the current UI:**
+- Voice calls
+- Phrase restore
+- $DAC mainnet / Phantom-style recovery
+
+Unread messages are held on DACx servers until read, then deleted after 3 minutes. Messages are not end-to-end encrypted yet.
 
 **Download:** www.dacnetwork.io
 **Repository:** https://github.com/DAC-web3/dacx
@@ -205,7 +212,7 @@ xID
 | Token Standard | Token-2022 (Token Extensions Program) |
 | Transfer Fee Extension | 0.5% auto-burn |
 | Wallet Compatibility | Phantom, Solflare, and compatible Solana wallets |
-| DACx Wallet | Self-custody, xID-bound, PIN-secured |
+| DACx Wallet | Devnet, xID-bound, PIN-secured. New keys on-device. Restore not live. |
 
 ---
 
