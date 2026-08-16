@@ -3,6 +3,23 @@
 All notable changes to DACnetwork are documented here.
 
 Format: `[Version] — Date — Description`
+## [0.8.2] — 16 August 2026
+
+### Added
+- DACx phrase restore (OTA + server, runtime 1.5.6)
+- Restore with xID → same xID, same Solana address
+- Restore with new xID → new identity, same wallet
+- Phrase never sent to the server
+
+### Changed
+- Wallet slice complete for new (on-device) accounts
+- Docs: restore marked live
+
+### Unchanged
+- Old accounts still log in with xID + PIN
+- Devnet only — not $DAC mainnet
+- Voice calls hidden
+- Not E2EE
 ---
 ## [0.8.1] — 16 August 2026
 
