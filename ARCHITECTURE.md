@@ -59,27 +59,31 @@ Utility token — Token-2022 Standard
 
 ### Activity Layer — rutaX
 
-**Status:** IN DEVELOPMENT
+**Status:** IN DEVELOPMENT — Devnet API live
 
 rutaX is the Proof-of-Activity mobile application of DACnetwork.
 
-**Designed to:**
-- Track verified physical movement via GPS
-- Reward users with $DAC for validated activity
-- Apply multi-layer anti-fraud validation
-
-**Reward model (designed):**
+**Live on Devnet now** (`https://api.dacnetwork.io/rutax/health`):
 - 1 $DAC per 10 km of GPS-validated activity
-- Maximum 10 $DAC per user per day
+- Maximum **5 $DAC per user per day**
+- Maximum **50,000 $DAC per day** for the whole network (credit returns 429 when full)
+- Cash-out checks the vault ATA first — insufficient vault = 503, no transfer
+- Ledger debit + signature idempotency — the same request is not paid twice
+- xID is linked from DACx (signed attest). A typed 9-digit xID is rejected
 
-**Anti-fraud layers (designed):**
-- Speed verification — movement above 20 km/h invalidated
-- Altitude validation — trajectory anomaly detection
-- Route analysis — suspicious pattern detection
+**Not live:**
+- $DAC mainnet rewards
+- The 240,000,000 $DAC rutaX vault (TOKENOMICS.md) — reserved, not deployed to this API
+- Public APK
+
+**Anti-fraud (in the Devnet app):**
+- Speed verification
+- Altitude / trajectory checks
+- Route analysis
 - GPS spoofing detection
-- Machine learning behavioral model
+- Behavioral model
 
-**Platform:** iOS & Android (in development)
+**Platform:** Android (in development). iOS planned.
 
 ---
 
