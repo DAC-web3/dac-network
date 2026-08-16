@@ -3,6 +3,24 @@
 All notable changes to DACnetwork are documented here.
 
 Format: `[Version] — Date — Description`
+## [0.8.3] — 16 August 2026
+
+### Added
+- rutaX Devnet network cap: 50,000 $DAC / day
+- rutaX vault ATA check before cash-out (503 if empty)
+- Cash-out idempotency on signature
+- DACx `POST /auth/rutax-attest` + verify; Settings → Link rutaX
+- rutaX rejects unsigned / typed xID
+
+### Changed
+- rutaX daily user cap documented as **5 $DAC** (matches live API, not 10)
+
+### Not shipped
+- $DAC mainnet rewards / 240M vault
+- Public rutaX APK
+- 180-day runway dashboard
+  
+---
 ## [0.8.2] — 16 August 2026
 
 ### Added
@@ -20,6 +38,7 @@ Format: `[Version] — Date — Description`
 - Devnet only — not $DAC mainnet
 - Voice calls hidden
 - Not E2EE
+  
 ---
 ## [0.8.1] — 16 August 2026
 
