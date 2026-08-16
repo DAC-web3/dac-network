@@ -2,20 +2,108 @@
 
 > Decentralized Autonomous Civilization — building a Web3 ecosystem on real human contribution.
 
-**Website:** dacnetwork.io | **X:** @DACLabs | **Status:** 🚧 Building | **$DAC Live on Solana** ✅ | **Blockchain:** Solana
+**Website:** dacnetwork.io | **X:** @DACLabs | **Blockchain:** Solana
 
 ---
 
-## Vision
+## What is DACnetwork?
 
 DACnetwork is a decentralized autonomous civilization focused on building digital communities governed by transparency, collaboration, and shared ownership.
 
-## Mission
-
-To empower people to organize, build, and govern together using Web3 technologies.
-
 Not speculation. Not passive holding.
 **Contribution first. Value second.**
+
+---
+
+## Ecosystem Status
+
+| Component | Status | Description |
+|-----------|--------|-------------|
+| $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022 |
+| DACx | ✅ BETA | Private messenger — Android v1.5.6 |
+| rutaX | 🔄 IN DEVELOPMENT | Proof-of-Activity mobile app |
+| DACmeta | 📋 PLANNED | Digital society, VR, marketplace |
+| DAC Smart Systems | 🔬 RESEARCH | DePIN, edge infrastructure |
+
+---
+
+## $DAC Token
+
+| Parameter | Value |
+|-----------|-------|
+| Network | Solana Mainnet |
+| Standard | Token-2022 |
+| Status | ✅ LIVE |
+| Total Supply | 3,000,000,000 $DAC (fixed, immutable) |
+| Burn | 0.5% per on-chain transaction (auto-burn) |
+| Mint Authority | REVOKED |
+| Contract | `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb` |
+| Explorer | [Solscan](https://solscan.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb) |
+
+> **$DAC token is live on Solana Mainnet.**
+> Ecosystem product integration, DEX listing and presale parameters are future milestones — see [ROADMAP.md](./ROADMAP.md) and [TOKENOMICS.md](./TOKENOMICS.md).
+
+*$DAC is a utility token and does not represent an investment.*
+
+---
+
+## The Four Pillars
+
+### ⚡ rutaX — Proof of Activity
+> *Move. Earn. Evolve.*
+
+**Status:** 🔄 IN DEVELOPMENT
+
+Physical movement validated by GPS generates $DAC.
+- 1 $DAC per 10 km walked (GPS verified)
+- Max 10 $DAC / user / day
+- Multi-layer anti-fraud system
+- Mobile app iOS & Android
+
+---
+
+### 🌐 DACmeta — Proof of Creation
+> *Digital space must expand society, not distort it.*
+
+**Status:** 📋 PLANNED
+
+The social layer of DACnetwork — a structured digital society, not a speculative metaverse.
+- Social VR spaces (DACmeta Lounge)
+- 3D Marketplace — real asset ownership on-chain
+- NFT minting — creators monetize directly
+- Photogrammetry — real objects become digital assets
+
+---
+
+### 🔧 DAC Smart Systems — Proof of Infrastructure
+> *Technology must protect human freedom, not replace it.*
+
+**Status:** 🔬 RESEARCH
+
+The physical layer — edge nodes and DePIN architecture.
+- Autonomous edge nodes with local processing
+- Privacy by design — local-first, minimal data collection
+- DePIN model — contributors rewarded in $DAC for uptime
+- No single point of failure
+
+---
+
+### 💬 DACx — Private Communication Layer
+> *Secure messaging. No trace.*
+
+**Status:** ✅ BETA — Android v1.5.6
+
+The communication layer of DACnetwork.
+- xID identity — no phone, no email required
+- Mutual contact only — bilateral consent
+- Ephemeral messages — disappear 3 min after read
+- Solana self-custody wallet bound to xID
+- OTA updates — automatic, no reinstall needed
+
+👉 **Download:** www.dacnetwork.io
+👉 **Repository:** https://github.com/DAC-web3/dacx
+
+---
 
 ## Narrative
 
@@ -24,6 +112,8 @@ DACnetwork explores the transition from traditional institutions toward decentra
 We believe humanity is entering a new coordination era where communities self-govern, collaborate globally, and build shared digital societies.
 
 DACnetwork is not only a project — it is an exploration of how civilization evolves in the Web3 age.
+
+---
 
 ## Why Now
 
@@ -37,75 +127,18 @@ DACnetwork emerges at this moment to explore new forms of decentralized civiliza
 
 ---
 
-## The Three Pillars
-
-### ⚡ rutaX — Proof of Activity
-> *Move. Earn. Evolve.*
-
-Physical movement validated by GPS generates $DAC.
-- 1 $DAC per 10 km walked (GPS verified)
-- Max 10 $DAC / user / day
-- Multi-layer anti-fraud system
-- Mobile app iOS & Android
-
-### 🌐 DACmeta — Proof of Creation
-> *Digital space must expand society, not distort it.*
-
-The social layer of DACnetwork — a structured digital society, not a speculative metaverse.
-- Social VR spaces (DACmeta Lounge)
-- 3D Marketplace — real asset ownership on-chain
-- NFT minting — creators monetize directly
-- Photogrammetry — real objects become digital assets
-
-### 🔧 DAC Smart Systems — Proof of Infrastructure
-> *Technology must protect human freedom, not replace it.*
-
-The physical layer — edge nodes and DePIN architecture.
-- Autonomous edge nodes with local processing
-- Privacy by design — local-first, minimal data collection
-- DePIN model — contributors rewarded in $DAC for uptime
-- No single point of failure
-
-- ### 💬 DACx — Private Communication Layer
-> *Secure messaging. No trace.*
-
-The communication layer of DACnetwork — ephemeral 1-to-1 messaging for society members.
-- xID identity — no phone, no email required
-- Mutual contact only — bilateral consent
-- Ephemeral messages — disappear 3 min after read
-- Solana self-custody wallet bound to xID
-
-👉 [Download DACx Beta APK](https://github.com/DAC-web3/dacx/releases/latest)
-
----
-
-## The $DAC Circular Economy
-
-Physical Activity (rutaX)          → $DAC
-Digital Creation (DACmeta)         → $DAC
-Infrastructure (DAC Smart Systems) → $DAC
-↓
-$DAC → Used across entire ecosystem
-↓
-0.5% fee per on-chain transaction → Deflationary supply
-
-**Token:** $DAC | **Standard:** Token 2022 | **Supply:** 3,000,000,000
-**Contract:** `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb`
-**Explorer:** https://solscan.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb
-
-*$DAC is a utility token and does not represent an investment.*
-
----
-
 ## Roadmap
 
-| Phase | Timeline | Milestone |
-|-------|----------|-----------|
-| Phase 0 | 2026 Q2 | Vision, Governance, Community foundation |
-| Phase 1 | 2026 Q3-Q4 | rutaX beta, GPS validation, first 1,000 users |
-| Phase 2 | 2027 Q1-Q2 | rutaX mainnet, $DAC on Solana, DACmeta beta |
-| Phase 3 | 2027 Q3-Q4 | Expansion, 10,000+ active users |
-| Phase 4 | 2028+ | Full DAO governance, autonomous ecosystem |
+| Phase | Period | Status | Key Milestones |
+|-------|--------|--------|----------------|
+| Phase 0 | 2026 Q1-Q2 | ✅ DONE | $DAC live, DACx beta, documentation |
+| Phase 1 | 2026 Q3-Q4 | 🔄 IN PROGRESS | rutaX beta, DACmeta prototype, website |
+| Phase 2 | 2027 Q1-Q2 | 📋 PLANNED | rutaX launch, DACmeta beta, presale, DEX |
+| Phase 3 | 2027 Q3-Q4 | 📋 PLANNED | Expansion, 50,000+ users |
+| Phase 4 | 2028-2029 | 📋 PLANNED | DAO governance |
+| Phase 5 | 2030+ | 📋 PLANNED | Full ecosystem autonomy |
+
+Full roadmap: 👉 [ROADMAP.md](./ROADMAP.md)
 
 ---
 
@@ -113,13 +146,13 @@ $DAC → Used across entire ecosystem
 
 | Document | Description |
 |----------|-------------|
-| [START_HERE.md](./START_HERE.md) | Begin here — onboarding guide for all contributors |
-| [WHITEPAPER.md](./WHITEPAPER.md) | Full technical and economic whitepaper v2.0 |
-| [ARCHITECTURE.md](./ARCHITECTURE.md) | Ecosystem layers and component status |
-| [TOKENOMICS.md](./TOKENOMICS.md) | Official $DAC token allocation structure |
+| [START_HERE.md](./START_HERE.md) | Begin here — onboarding guide |
+| [WHITEPAPER.md](./WHITEPAPER.md) | Full technical whitepaper v2.0 |
+| [ARCHITECTURE.md](./ARCHITECTURE.md) | Ecosystem layers and status |
+| [TOKENOMICS.md](./TOKENOMICS.md) | Official $DAC token allocation |
 | [ROADMAP.md](./ROADMAP.md) | Development roadmap 2026-2030 |
 | [GOVERNANCE.md](./GOVERNANCE.md) | DAO governance model |
-| [SECURITY.md](./SECURITY.md) | Security policy and vulnerability reporting |
+| [SECURITY.md](./SECURITY.md) | Security policy |
 | [CONTRIBUTING.md](./CONTRIBUTING.md) | How to contribute |
 | [CHANGELOG.md](./CHANGELOG.md) | Version history |
 | [PROGRESS.md](./PROGRESS.md) | Live progress updates |
@@ -151,4 +184,5 @@ If you want to help shape the future of decentralized society, join the DACnetwo
 ---
 
 *DACnetwork • Asociația DACnetwork Web3 • București, România*
-*dacnetwork.io • Versiunea 1.1 | 2026*
+*dacnetwork.io • Versiunea 2.0 | 2026*
+*$DAC is a utility token and does not represent an investment.*
