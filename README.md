@@ -52,13 +52,14 @@ Not speculation. Not passive holding.
 ### ⚡ rutaX — Proof of Activity
 > *Move. Earn. Evolve.*
 
-**Status:** 🔄 IN DEVELOPMENT
+**Status:** 🔄 IN DEVELOPMENT — Devnet API live
 
-Physical movement validated by GPS generates $DAC.
+Physical movement validated by GPS. Rewards on **Devnet**, not $DAC mainnet.
 - 1 $DAC per 10 km walked (GPS verified)
-- Max 10 $DAC / user / day
-- Multi-layer anti-fraud system
-- Mobile app iOS & Android
+- Max **5 $DAC / user / day**
+- Max **50,000 $DAC / day** network-wide
+- Vault checked before cash-out
+- xID linked from DACx (Settings → Link rutaX) — not typed by hand
 
 ---
 
