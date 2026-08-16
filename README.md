@@ -153,7 +153,7 @@ Full roadmap: 👉 [ROADMAP.md](./ROADMAP.md)
 | [START_HERE.md](./START_HERE.md) | Begin here — onboarding guide |
 | [WHITEPAPER.md](./WHITEPAPER.md) | Full technical whitepaper v2.0 |
 | [ARCHITECTURE.md](./ARCHITECTURE.md) | Ecosystem layers and status |
-| [TOKENOMICS.md](./TOKENOMICS.md) | Official $DAC token allocation |
+| [TOKENOMICS.md](./TOKENOMICS.md) | Official $DAC allocation structure |
 | [ROADMAP.md](./ROADMAP.md) | Development roadmap 2026-2030 |
 | [GOVERNANCE.md](./GOVERNANCE.md) | DAO governance model |
 | [SECURITY.md](./SECURITY.md) | Security policy |
