@@ -5,11 +5,14 @@ Updated regularly as milestones are reached.
 
 ---
 
+## Current Status — August 2026
+
 | Component | Status | Notes |
 |-----------|--------|-------|
-| $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022. Mint + freeze revoked |
-| DACx | ✅ BETA | Android v1.5.6 — wallet, restore, Link rutaX |
-| rutaX | 🔄 IN DEVELOPMENT | Devnet API live — 5/user/day, 50k/network |
+| $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022 |
+| DACx | ✅ BETA | Android v1.5.6 — OTA updates active |
+| DACx Devnet Wallet | ✅ LIVE | DAC balance + send — Devnet only |
+| rutaX | 🔄 IN DEVELOPMENT | Devnet API live |
 | DACmeta | 📋 PLANNED | Prototype planning stage |
 | DAC Smart Systems | 🔬 RESEARCH | Node design stage |
 
@@ -18,21 +21,11 @@ Updated regularly as milestones are reached.
 ## August 2026
 
 ### Completed
-- ✅ rutaX Devnet: max 5 $DAC/user/day, max 50,000 $DAC/network/day
-- ✅ rutaX cash-out: vault ATA check, ledger debit before tx, signature idempotency
-- ✅ xID link: DACx Settings → Link rutaX (signed attest). Typed xID rejected
-- ✅ Public docs: daily cap 10 → 5 to match live API
-- ✅ DACx OTA 16 Aug (runtime 1.5.6, no new APK)
-- ✅ Home: glass header, transparent logo, social footer
-- ✅ Chat: unread fix, composer reset, Android back stays in-app
-- ✅ PIN: single field, 4–6 digits
-- ✅ QR: full-screen camera; `dacx://add/…` and plain xID
-- ✅ New accounts: key created on device, 12 words + 3-word confirm
-- ✅ Wallet badge DEVNET — not $DAC mainnet
-- ✅ Phrase restore live — same xID or new xID, same Solana address; phrase stays on device
-- ✅ Voice calls remain hidden
-- ✅ dacx README aligned with live status
-- ✅ DACx OTA Security & UI Premium update live
+- ✅ DACx OTA v1.5.6-ota-2 — Devnet DAC wallet live
+- ✅ Devnet DAC (Token-2022) balance visible in DACx wallet
+- ✅ Send DAC / SOL tabs in wallet screen
+- ✅ Hide Home balance chip — eye toggle, persists
+- ✅ DACx OTA v1.5.6-ota-1 — Security & UI Premium
 - ✅ PIN Vault — required on every app open
 - ✅ Privacy cover — app switcher shows only logo
 - ✅ Auto-lock with configurable timer
@@ -43,16 +36,16 @@ Updated regularly as milestones are reached.
 - ✅ ARCHITECTURE.md published
 - ✅ TOKENOMICS.md published
 - ✅ SECURITY.md published
-- ✅ START_HERE.md updated — full onboarding guide
 - ✅ ROADMAP.md updated — $DAC status clarified
-- ✅ README.md updated — ecosystem status table
-- ✅ DACnetwork website live — dacnetwork.io
-
+- ✅ rutaX Devnet API live
+- ✅ rutaX linked from DACx (Settings → Link rutaX)
+- ✅ DACx wallet — 12-word seed phrase + restore live
 
 ### In Progress
-- 🔄 rutaX MVP development
+- 🔄 rutaX mainnet preparation
 - 🔄 DACmeta Lounge prototype planning
 - 🔄 Community channels launch preparation
+- 🔄 DACnetwork website development
 
 ---
 
@@ -78,13 +71,9 @@ Updated regularly as milestones are reached.
 - ✅ README.md, WHITEPAPER.md, ROADMAP.md, GOVERNANCE.md published
 - ✅ CONTRIBUTING.md, TEAM.md, VISION.md, PROGRESS.md published
 - ✅ MIT License added
-- ✅ Issue Templates added (Bug Report, Feature Request, Collaboration)
+- ✅ Issue Templates added
 - ✅ Google Collaboration Form live
-- ✅ Topics and website added to repository
 - ✅ Community discussions opened (Issues #1-18)
-- ✅ rutaX ideology document published
-- ✅ DACmeta ideology document published
-- ✅ DAC Smart Systems ideology document published
 
 ---
 
@@ -92,7 +81,8 @@ Updated regularly as milestones are reached.
 
 | Priority | Item | Status |
 |----------|------|--------|
-| High | rutaX MVP beta | 🔄 In progress |
+| High | rutaX mainnet preparation | 🔄 In progress |
+| High | DACnetwork website launch | 🔄 In progress |
 | High | Community channels launch | 🔄 Planned |
 | Medium | DACmeta Lounge prototype | 📋 Planned |
 | Medium | DACx iOS version | 📋 Planned |
@@ -103,9 +93,16 @@ Updated regularly as milestones are reached.
 
 ---
 
-## Verification
+## Important Addresses
 
-All on-chain activity is publicly verifiable:
+| Item | Address |
+|------|---------|
+| $DAC Mainnet | `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb` |
+| DAC Devnet Mint | `8NeGLu1s8jQjvrtgpTKPMkGg71NKKpwaMthhUSkfLatR` |
+
+---
+
+## Verification
 
 - $DAC contract: https://solscan.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb
 - DACnetwork GitHub: https://github.com/DAC-web3
@@ -114,4 +111,4 @@ All on-chain activity is publicly verifiable:
 ---
 
 *DACnetwork • Asociația DACnetwork Web3 • București, România*
-*dacnetwork.io • Updated: 16 August 2026*
+*dacnetwork.io • Updated: August 2026*
