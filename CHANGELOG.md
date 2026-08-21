@@ -3,6 +3,25 @@
 All notable changes to DACnetwork are documented here.
 
 Format: `[Version] — Date — Description`
+## [0.8.4] — August 2026
+
+### Added
+- DACx OTA v1.5.6-ota-2 — Devnet DAC wallet + hide Home balance
+- Devnet DAC (Token-2022) balance visible in DACx wallet
+- Devnet DAC Mint: `8NeGLu1s8jQjvrtgpTKPMkGg71NKKpwaMthhUSkfLatR`
+- Send DAC / SOL tabs in wallet screen
+- Hide Home balance chip — eye toggle, persists
+- Settings → Hide Home balance toggle
+
+### Technical
+- DAC reads/sends use `@solana/web3.js` only (Token-2022 transferChecked + ATA)
+- No new APK — runtime stays 1.5.6
+
+### Notes
+- Devnet only — not mainnet $DAC (`4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb`)
+- Cash-out from rutaX still goes to Phantom/Solflare connected in rutaX
+
+---
 ## [0.8.3] — 16 August 2026
 
 ### Added
