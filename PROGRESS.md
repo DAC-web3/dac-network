@@ -5,16 +5,26 @@ Updated regularly as milestones are reached.
 
 ---
 
-## Current Status — August 2026
+## Current Status — September 2026
 
 | Component | Status | Notes |
 |-----------|--------|-------|
 | $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022 |
 | DACx | ✅ BETA | Android v1.5.6 — OTA updates active |
 | DACx Devnet Wallet | ✅ LIVE | DAC balance + send — Devnet only |
-| rutaX | 🔄 IN DEVELOPMENT | Devnet API live |
+| rutaX | 🔄 IN DEVELOPMENT | Android first — OTA distribution planned |
 | DACmeta | 📋 PLANNED | Prototype planning stage |
 | DAC Smart Systems | 🔬 RESEARCH | Node design stage |
+
+---
+
+## September 2026
+
+### In Progress
+- 🔄 rutaX beta development — Android first, OTA distribution
+- 🔄 DACnetwork website development
+- 🔄 Community channels launch preparation
+- 🔄 DACmeta prototype planning
 
 ---
 
@@ -37,15 +47,7 @@ Updated regularly as milestones are reached.
 - ✅ TOKENOMICS.md published
 - ✅ SECURITY.md published
 - ✅ ROADMAP.md updated — $DAC status clarified
-- ✅ rutaX Devnet API live
-- ✅ rutaX linked from DACx (Settings → Link rutaX)
 - ✅ DACx wallet — 12-word seed phrase + restore live
-
-### In Progress
-- 🔄 rutaX mainnet preparation
-- 🔄 DACmeta Lounge prototype planning
-- 🔄 Community channels launch preparation
-- 🔄 DACnetwork website development
 
 ---
 
@@ -81,7 +83,7 @@ Updated regularly as milestones are reached.
 
 | Priority | Item | Status |
 |----------|------|--------|
-| High | rutaX mainnet preparation | 🔄 In progress |
+| High | rutaX beta — Android + OTA | 🔄 In development |
 | High | DACnetwork website launch | 🔄 In progress |
 | High | Community channels launch | 🔄 Planned |
 | Medium | DACmeta Lounge prototype | 📋 Planned |
@@ -111,4 +113,4 @@ Updated regularly as milestones are reached.
 ---
 
 *DACnetwork • Asociația DACnetwork Web3 • București, România*
-*dacnetwork.io • Updated: August 2026*
+*dacnetwork.io • Updated: September 2026*
