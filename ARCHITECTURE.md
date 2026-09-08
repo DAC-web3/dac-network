@@ -1,6 +1,6 @@
 # DACnetwork — Architecture
 
-**Version:** 1.0 | **Date:** August 2026 | **Status:** Documentation
+**Version:** 1.1 | **Date:** September 2026 | **Status:** Documentation
 
 ---
 
@@ -34,7 +34,7 @@ DACnetwork
 ├── Communication Layer
 │ └── DACx
 │ Status: LIVE (Beta v1.5.6 — Android)
-│ Private messaging, xID identity, Solana wallet
+│ Private messaging, xID identity, Solana Devnet wallet
 │
 └── Economic Layer
 └── $DAC Token
@@ -140,6 +140,7 @@ DACx is the private communication and identity layer of DACnetwork.
 - 12-word phrase at signup — recovers the wallet
 - Phrase restore — same xID or a new xID, same Solana address
 - Phrase never sent to the server
+- Devnet DAC (Token-2022) mint `8NeGLu1s8jQjvrtgpTKPMkGg71NKKpwaMthhUSkfLatR` — view + send. **Not** mainnet $DAC
 - Push notifications — FCM
 - OTA updates — automatic, no reinstall needed
 - PIN lock — required on every app open (4–6 digits)
@@ -150,11 +151,13 @@ DACx is the private communication and identity layer of DACnetwork.
 
 **Not offered in the current UI:**
 - Voice calls
-- $DAC mainnet
+- $DAC mainnet (`4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb`)
 
 Old accounts (server-held key) still use xID + PIN. Restore on those accounts points back to normal login.
 
 Unread messages are held on DACx servers until read, then deleted after 3 minutes. Messages are not end-to-end encrypted yet.
+
+rutaX cash-out goes to the Phantom/Solflare connected in rutaX — not the DACx wallet.
 
 **Download:** www.dacnetwork.io
 **Repository:** https://github.com/DAC-web3/dacx
@@ -178,7 +181,10 @@ $DAC is the native utility token of the DACnetwork ecosystem.
 | Mint Authority | REVOKED |
 | Freeze Authority | REVOKED |
 | Contract | `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb` |
+| Metadata URI | https://dacnetwork.io/dac-metadata.json |
 | Explorer | https://solscan.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb |
+
+On-chain metadata is Metaplex (mutable). The Token-2022 mint was created without a TokenMetadata extension; mint authority is revoked so that extension cannot be added later.
 
 ---
 
@@ -194,6 +200,8 @@ $DAC → Used across entire ecosystem
 0.5% fee per on-chain transaction
 ↓
 Auto-burn → Reduced circulating supply
+
+Today, rutaX rewards and DACx transfers use **Devnet**. Mainnet $DAC utility inside products is a future milestone.
 
 ---
 
@@ -219,7 +227,7 @@ xID
 | Token Standard | Token-2022 (Token Extensions Program) |
 | Transfer Fee Extension | 0.5% auto-burn |
 | Wallet Compatibility | Phantom, Solflare, and compatible Solana wallets |
-| DACx Wallet | Devnet, xID-bound, PIN-secured. New keys on-device. Phrase restore live. |
+| DACx Wallet | Devnet. On-device key + 12-word restore. Devnet DAC mint `8NeGLu1s8jQjvrtgpTKPMkGg71NKKpwaMthhUSkfLatR`. Not mainnet $DAC. |
 
 ---
 
@@ -259,7 +267,7 @@ xID
 
 ---
 
-*DACnetwork • Asociația DACnetwork Web3 • București, România*
+*DACnetwork • Asociația DACnetwork Web3 (registration in progress) • București, România*
 *dacnetwork.io • X: @DACLabs*
 
 *This document describes the designed architecture of DACnetwork.*

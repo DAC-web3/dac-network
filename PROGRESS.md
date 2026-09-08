@@ -10,19 +10,27 @@ Updated regularly as milestones are reached.
 | Component | Status | Notes |
 |-----------|--------|-------|
 | $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022 |
+| Metadata | ✅ LIVE | `https://dacnetwork.io/dac-metadata.json` |
+| Website | ✅ LIVE | dacnetwork.io |
 | DACx | ✅ BETA | Android v1.5.6 — OTA updates active |
 | DACx Devnet Wallet | ✅ LIVE | DAC balance + send — Devnet only |
 | rutaX | 🔄 IN DEVELOPMENT | Android first — OTA distribution planned |
 | DACmeta | 📋 PLANNED | Prototype planning stage |
 | DAC Smart Systems | 🔬 RESEARCH | Node design stage |
+| Association | 🔄 IN PROGRESS | Registration under OG 26/2000 — not yet in the registry |
 
 ---
 
 ## September 2026
 
+### Completed
+- ✅ Website live — dacnetwork.io
+- ✅ Whitepaper v2.0 honesty pass (site + GitHub): 5 $DAC/user/day, Devnet DAC ≠ mainnet, E2EE not live, association in progress
+- ✅ Token metadata URI set to HTTPS (`dac-metadata.json` + `DAC_logo.png`)
+
 ### In Progress
 - 🔄 rutaX beta development — Android first, OTA distribution
-- 🔄 DACnetwork website development
+- 🔄 Association legal registration
 - 🔄 Community channels launch preparation
 - 🔄 DACmeta prototype planning
 
@@ -83,8 +91,8 @@ Updated regularly as milestones are reached.
 
 | Priority | Item | Status |
 |----------|------|--------|
+| High | Association legal registration | 🔄 In progress |
 | High | rutaX beta — Android + OTA | 🔄 In development |
-| High | DACnetwork website launch | 🔄 In progress |
 | High | Community channels launch | 🔄 Planned |
 | Medium | DACmeta Lounge prototype | 📋 Planned |
 | Medium | DACx iOS version | 📋 Planned |
@@ -101,6 +109,7 @@ Updated regularly as milestones are reached.
 |------|---------|
 | $DAC Mainnet | `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb` |
 | DAC Devnet Mint | `8NeGLu1s8jQjvrtgpTKPMkGg71NKKpwaMthhUSkfLatR` |
+| Metadata JSON | https://dacnetwork.io/dac-metadata.json |
 
 ---
 
@@ -112,5 +121,5 @@ Updated regularly as milestones are reached.
 
 ---
 
-*DACnetwork • Asociația DACnetwork Web3 • București, România*
+*DACnetwork • Asociația DACnetwork Web3 (registration in progress) • București, România*
 *dacnetwork.io • Updated: September 2026*

@@ -2,7 +2,7 @@
 
 > Decentralized Autonomous Civilization — building a Web3 ecosystem on real human contribution.
 
-**Website:** dacnetwork.io | **X:** @DACLabs | **Blockchain:** Solana
+**Website:** [dacnetwork.io](https://dacnetwork.io) | **X:** [@DACLabs](https://x.com/DACLabs) | **Blockchain:** Solana
 
 ---
 
@@ -21,9 +21,11 @@ Not speculation. Not passive holding.
 |-----------|--------|-------------|
 | $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022 |
 | DACx | ✅ BETA | Private messenger — Android v1.5.6 |
-| rutaX | 🔄 IN DEVELOPMENT | Proof-of-Activity mobile app |
+| rutaX | 🔄 IN DEVELOPMENT | Proof-of-Activity mobile app (Devnet) |
 | DACmeta | 📋 PLANNED | Digital society, VR, marketplace |
 | DAC Smart Systems | 🔬 RESEARCH | DePIN, edge infrastructure |
+| Website | ✅ LIVE | [dacnetwork.io](https://dacnetwork.io) |
+| Association | 🔄 IN PROGRESS | Registration under Romanian law (OG 26/2000) |
 
 ---
 
@@ -37,7 +39,9 @@ Not speculation. Not passive holding.
 | Total Supply | 3,000,000,000 $DAC (fixed, immutable) |
 | Burn | 0.5% per on-chain transaction (auto-burn) |
 | Mint Authority | REVOKED |
+| Freeze Authority | REVOKED |
 | Contract | `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb` |
+| Metadata URI | https://dacnetwork.io/dac-metadata.json |
 | Explorer | [Solscan](https://solscan.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb) |
 
 > **$DAC token is live on Solana Mainnet.**
@@ -98,16 +102,17 @@ The communication layer of DACnetwork.
 - xID identity — no phone, no email required
 - Message requests — add by QR or xID; they accept or ignore
 - Ephemeral messages — disappear 3 min after read
+- Unread messages are held on DACx servers until read, then deleted. **Not E2EE yet**
 - Devnet wallet — new accounts create the key on the phone
 - 12 words recover the wallet — restore is live
-- Restore: same xID or a new xID, same Solana address
+- Devnet DAC (Token-2022) mint `8NeGLu1s8jQjvrtgpTKPMkGg71NKKpwaMthhUSkfLatR` — **not** mainnet $DAC
 - Phrase never sent to the server
 - OTA updates — automatic, no reinstall needed
 - Voice calls are not offered in the current UI
 
 Not $DAC mainnet. Old accounts still use xID + PIN.
 
-👉 **Download:** www.dacnetwork.io
+👉 **Download:** [dacnetwork.io](https://dacnetwork.io)
 👉 **Repository:** https://github.com/DAC-web3/dacx
 
 ---
@@ -138,9 +143,9 @@ DACnetwork emerges at this moment to explore new forms of decentralized civiliza
 
 | Phase | Period | Status | Key Milestones |
 |-------|--------|--------|----------------|
-| Phase 0 | 2026 Q1-Q2 | ✅ DONE | $DAC live, DACx beta, documentation |
-| Phase 1 | 2026 Q3-Q4 | 🔄 IN PROGRESS | rutaX beta, DACmeta prototype, website |
-| Phase 2 | 2027 Q1-Q2 | 📋 PLANNED | rutaX launch, DACmeta beta, presale, DEX |
+| Phase 0 | 2026 Q1-Q2 | 🔄 IN PROGRESS | $DAC live, DACx beta, website live, docs. Association registration in progress |
+| Phase 1 | 2026 Q3-Q4 | 🔄 IN PROGRESS | rutaX beta, DACmeta prototype, DACx iOS |
+| Phase 2 | 2027 Q1-Q2 | 📋 PLANNED | rutaX launch, DACmeta beta, presale (TBD), DEX (TBD) |
 | Phase 3 | 2027 Q3-Q4 | 📋 PLANNED | Expansion, 50,000+ users |
 | Phase 4 | 2028-2029 | 📋 PLANNED | DAO governance |
 | Phase 5 | 2030+ | 📋 PLANNED | Full ecosystem autonomy |
@@ -190,6 +195,6 @@ If you want to help shape the future of decentralized society, join the DACnetwo
 
 ---
 
-*DACnetwork • Asociația DACnetwork Web3 • București, România*
-*dacnetwork.io • Versiunea 2.0 | 2026*
+*DACnetwork • Asociația DACnetwork Web3 (registration in progress) • București, România*
+*dacnetwork.io • Versiunea 2.0 | September 2026*
 *$DAC is a utility token and does not represent an investment.*

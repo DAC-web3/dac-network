@@ -1,9 +1,10 @@
 # DACnetwork — Roadmap 2026-2030
 
-**Last updated:** August 2026
+**Last updated:** September 2026
 
 > This roadmap reflects the current planned development trajectory of DACnetwork.
 > Dates and milestones may evolve as the project develops.
+> Planned milestones are not guarantees.
 
 ---
 
@@ -13,9 +14,11 @@
 |-----------|--------|
 | $DAC Token | ✅ LIVE — Solana Mainnet |
 | DACx | ✅ BETA — Android v1.5.6 |
-| rutaX | 🔄 IN DEVELOPMENT |
+| Website | ✅ LIVE — dacnetwork.io |
+| rutaX | 🔄 IN DEVELOPMENT — Devnet API live |
 | DACmeta | 📋 PLANNED |
 | DAC Smart Systems | 🔬 RESEARCH |
+| Association | 🔄 IN PROGRESS — registration under OG 26/2000 |
 
 ---
 
@@ -29,11 +32,13 @@
 | Contract address | `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb` |
 | Token standard | Token-2022 |
 | Total supply | 3,000,000,000 $DAC |
-| Burn mechanism | ✅ Active — 0.5% per transaction |
+| Mint / freeze authority | REVOKED |
+| Burn mechanism | ✅ Active — 0.5% per eligible transfer |
+| Metadata URI | https://dacnetwork.io/dac-metadata.json |
 
 **Future roadmap phases refer to:**
 - Ecosystem product integration with $DAC
-- rutaX reward activation
+- rutaX reward activation on mainnet
 - DACmeta marketplace using $DAC
 - DEX listing and liquidity (parameters TBD)
 - DAO governance activation
@@ -43,19 +48,21 @@ These are **ecosystem milestones** — not the token deployment itself.
 ---
 
 ## Phase 0 — Foundation
-**Period:** 2026 Q1-Q2 | **Status:** ✅ COMPLETED
+**Period:** 2026 Q1-Q2 | **Status:** 🔄 IN PROGRESS
 
-- ✅ DACnetwork Web3 Association established
+Done:
 - ✅ Whitepaper v2.0 published
 - ✅ $DAC token deployed on Solana Mainnet
-- ✅ DACx Beta v1.5.6 launched (Android)
-- ✅ GitHub documentation ecosystem established
-- ✅ ARCHITECTURE.md published
-- ✅ TOKENOMICS.md published
-- ✅ SECURITY.md published
-- ✅ Community discussions opened (40+ Issues)
+- ✅ DACx Beta v1.5.6 launched (Android) + OTA
+- ✅ Website live — [dacnetwork.io](https://dacnetwork.io)
+- ✅ GitHub documentation ecosystem
+- ✅ ARCHITECTURE.md, TOKENOMICS.md, SECURITY.md published
+- ✅ Community discussions opened
 - ✅ Collaboration form live
-- ✅ rutaX development started
+- ✅ rutaX Devnet development started
+
+Still open:
+- 🔄 DACnetwork Web3 Association — **registration in progress** (not yet established in the registry)
 
 ---
 
@@ -69,7 +76,7 @@ These are **ecosystem milestones** — not the token deployment itself.
 - 🔄 DACx public launch — expanded user base
 - 🔄 DACx iOS version
 - 🔄 Community channels launch
-- 🔄 DACnetwork website launch
+- ✅ DACnetwork website — **live**
 
 ---
 
@@ -94,7 +101,7 @@ These are **ecosystem milestones** — not the token deployment itself.
 
 - International expansion
 - Strategic partnerships
-- DACx $DAC payments in chat
+- DACx $DAC payments in chat (mainnet)
 - Community governance voting
 - DePIN node expansion
 - 50,000+ active users target
@@ -126,6 +133,7 @@ These are **ecosystem milestones** — not the token deployment itself.
 
 | Item | Status |
 |------|--------|
+| Association legal registration | 🔄 In progress |
 | Presale price | TBD |
 | Hard cap / Soft cap | TBD |
 | Presale date | TBD |
@@ -149,7 +157,7 @@ These are **ecosystem milestones** — not the token deployment itself.
 
 ---
 
-*DACnetwork • Asociația DACnetwork Web3 • București, România*
+*DACnetwork • Asociația DACnetwork Web3 (registration in progress) • București, România*
 *dacnetwork.io • X: @DACLabs*
 
 *$DAC is a utility token and does not represent an investment.*
