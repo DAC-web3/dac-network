@@ -56,7 +56,7 @@ Not speculation. Not passive holding.
 ### ⚡ rutaX — Proof of Activity
 > *Move. Earn. Evolve.*
 
-**Status:** 🔄 IN DEVELOPMENT — Devnet API live
+**Status:** 🔄 IN DEVELOPMENT — Android first, OTA planned
 
 Physical movement validated by GPS. Rewards on **Devnet**, not $DAC mainnet.
 - 1 $DAC per 10 km walked (GPS verified)
