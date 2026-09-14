@@ -3,6 +3,34 @@
 All notable changes to DACnetwork are documented here.
 
 Format: `[Version] — Date — Description`
+
+## [0.9.0] — September 2026
+
+### Current ecosystem status
+- DACx Beta v1.5.6 remains the current Android baseline.
+- DACx OTA updates are active; compatible JavaScript/UI changes can ship without a new APK.
+- DACx Devnet wallet is live for Devnet DAC/SOL functionality.
+- Sentry crash monitoring is configured for DACx development, preview and production environments.
+- GitHub Issues and release documentation have been aligned with the current DACx v1.5.6 status.
+- rutaX remains **IN DEVELOPMENT** on Devnet; public beta is not yet launched.
+- DACmeta remains **PLANNED**, with prototype planning underway.
+- DAC Smart Systems remains in **RESEARCH** / node design stage.
+
+### Documentation
+- README.md reviewed and aligned with the September 2026 ecosystem status.
+- PROGRESS.md updated for September 2026.
+- ROADMAP.md reviewed: rutaX public beta remains an in-progress milestone for Phase 1.
+- DACx v1.5.6 OTA/security/UI work is documented as completed in the DACx repository.
+
+### Important status notes
+- $DAC is live on Solana Mainnet using Token-2022.
+- DACx Devnet DAC is separate from mainnet $DAC.
+- DACx is **not E2EE yet**.
+- The association registration remains in progress and is not yet established in the registry.
+- Public presale and DEX listing remain future milestones with parameters TBD.
+
+---
+
 ## [0.8.4] — August 2026
 
 ### Added
@@ -173,7 +201,7 @@ Format: `[Version] — Date — Description`
 - TEAM.md — founding team
 - PROGRESS.md — live progress tracking
 - VISION.md — core philosophy and vision
-- START_HERE.md — initial onboarding document
+- START_HERE.md — initial onboarding guide
 - Three contribution pillars defined: rutaX, DACmeta, DAC Smart Systems
 - Circular $DAC economy model defined
 
@@ -193,11 +221,12 @@ Format: `[Version] — Date — Description`
 
 | Version | Target | Milestone |
 |---------|--------|-----------|
-| 0.8.0 | 2026 Q3 | rutaX beta launch |
-| 0.9.0 | 2026 Q4 | First 1,000 users |
+| 0.9.0 | 2026 Q3-Q4 | rutaX beta development, DACmeta prototype planning, DACx continued expansion |
 | 1.0.0 | 2027 Q1 | rutaX mainnet + DACmeta beta |
 | 2.0.0 | 2028+ | Full DAO governance |
 
+> Roadmap versions are documentation milestones and do not replace the detailed development roadmap in [ROADMAP.md](./ROADMAP.md).
+
 ---
 
-*DACnetwork • dacnetwork.io • Whitepaper v2.0 | 2026*
+*DACnetwork • dacnetwork.io • Whitepaper v2.0 | September 2026*
