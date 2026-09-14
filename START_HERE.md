@@ -24,7 +24,7 @@ DACnetwork has five layers:
 | Activity | rutaX | 🔄 IN DEVELOPMENT |
 | Social | DACmeta | 📋 PLANNED |
 | Physical | DAC Smart Systems | 🔬 RESEARCH |
-| Communication | DACx | ✅ LIVE — Beta v1.5.6 |
+| Communication | DACx | ✅ LIVE — Beta v1.5.7 |
 | Economic | $DAC Token | ✅ LIVE — Solana Mainnet |
 
 **Read the full architecture:**
@@ -39,7 +39,7 @@ DACnetwork has five layers:
 - Contract: `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb`
 - Explorer: https://solscan.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb
 
-**DACx — LIVE (Beta v1.5.6 Android)**
+**DACx — LIVE (Beta v1.5.7 Android)**
 - Private messenger with xID identity
 - Ephemeral messages and Solana Devnet wallet
 - Voice calls are not offered in the current UI
