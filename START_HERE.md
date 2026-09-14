@@ -41,7 +41,8 @@ DACnetwork has five layers:
 
 **DACx — LIVE (Beta v1.5.6 Android)**
 - Private messenger with xID identity
-- Ephemeral messages, Solana wallet, voice calls
+- Ephemeral messages and Solana Devnet wallet
+- Voice calls are not offered in the current UI
 - Download: www.dacnetwork.io
 - Repository: https://github.com/DAC-web3/dacx
 
