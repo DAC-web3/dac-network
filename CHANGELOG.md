@@ -7,11 +7,11 @@ Format: `[Version] — Date — Description`
 ## [0.9.0] — September 2026
 
 ### Current ecosystem status
-- DACx Beta v1.5.6 remains the current Android baseline.
+- DACx Beta v1.5.7 is the current Android baseline.
 - DACx OTA updates are active; compatible JavaScript/UI changes can ship without a new APK.
 - DACx Devnet wallet is live for Devnet DAC/SOL functionality.
-- Sentry crash monitoring is configured for DACx development, preview and production environments.
-- GitHub Issues and release documentation have been aligned with the current DACx v1.5.6 status.
+- Sentry has been removed from the DACx native build integration.
+- GitHub Issues and release documentation have been aligned with the current DACx v1.5.7 release.
 - rutaX remains **IN DEVELOPMENT** on Devnet; public beta is not yet launched.
 - DACmeta remains **PLANNED**, with prototype planning underway.
 - DAC Smart Systems remains in **RESEARCH** / node design stage.
@@ -20,7 +20,7 @@ Format: `[Version] — Date — Description`
 - README.md reviewed and aligned with the September 2026 ecosystem status.
 - PROGRESS.md updated for September 2026.
 - ROADMAP.md reviewed: rutaX public beta remains an in-progress milestone for Phase 1.
-- DACx v1.5.6 OTA/security/UI work is documented as completed in the DACx repository.
+- DACx v1.5.7 native APK and dependency-security work is documented in the DACx repository.
 
 ### Important status notes
 - $DAC is live on Solana Mainnet using Token-2022.
