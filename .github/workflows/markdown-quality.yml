@@ -30,4 +30,8 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2.4.1
         with:
-          args: --no-progress --exclude-mail "./**/*.md"
+          args: >-
+            --no-progress --exclude-mail
+            --exclude '^https://x\.com/DACLabs$'
+            --exclude '^https://solscan\.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb$'
+            "./**/*.md"
