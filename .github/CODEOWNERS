@@ -1,0 +1,4 @@
+# DACnetwork documentation and security-sensitive project records
+*.md @DAC-web3
+SECURITY.md @DAC-web3
+TOKENOMICS.md @DAC-web3

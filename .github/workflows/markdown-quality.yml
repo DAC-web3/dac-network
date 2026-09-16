@@ -1,0 +1,33 @@
+name: Markdown quality
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  markdownlint:
+    name: Markdown formatting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4.2.2
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v20.0.0
+        with:
+          globs: "**/*.md"
+
+  link-check:
+    name: Markdown links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4.2.2
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2.4.1
+        with:
+          args: --no-progress --exclude-mail "./**/*.md"
