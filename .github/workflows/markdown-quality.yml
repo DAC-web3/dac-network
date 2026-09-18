@@ -31,7 +31,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2.9.0
         with:
           args: >-
-            --no-progress --exclude-mail
+            --no-progress
             --exclude '^https://x\.com/DACLabs$'
             --exclude '^https://solscan\.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb$'
             "./**/*.md"
