@@ -32,7 +32,19 @@ jobs:
         with:
           args: >-
             --no-progress
-            --user-agent 'Mozilla/5.0'
             --exclude '^https://x\.com/DACLabs$'
             --exclude '^https://solscan\.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb$'
             "./**/*.md"
+      - name: Diagnose Lychee requests
+        if: failure()
+        run: |
+          lychee --help
+          for mode in default accept head serial; do
+            echo "Request mode: $mode"
+            case "$mode" in
+              default) lychee --no-progress https://dacnetwork.io/ || true ;;
+              accept) lychee --no-progress --header 'accept=*/*' https://dacnetwork.io/ || true ;;
+              head) lychee --no-progress --method HEAD https://dacnetwork.io/ || true ;;
+              serial) lychee --no-progress --max-concurrency 1 https://dacnetwork.io/ || true ;;
+            esac
+          done
