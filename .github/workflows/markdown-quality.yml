@@ -50,16 +50,8 @@ jobs:
         with:
           args: >-
             --no-progress
-            --exclude '^https://(www\.)?dacnetwork\.io/
-            --exclude '^https://x\.com/DACLabs$'
-            --exclude '^https://solscan\.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb$'
-            "./**/*.md"
-
-            --exclude '^https://dacnetwork\.io/dac-metadata\.json
-            --exclude '^https://x\.com/DACLabs$'
-            --exclude '^https://solscan\.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb$'
-            "./**/*.md"
-
+            --exclude '^https://(www\.)?dacnetwork\.io/$'
+            --exclude '^https://dacnetwork\.io/dac-metadata\.json$'
             --exclude '^https://x\.com/DACLabs$'
             --exclude '^https://solscan\.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb$'
             "./**/*.md"
