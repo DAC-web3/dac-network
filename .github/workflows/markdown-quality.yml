@@ -27,6 +27,22 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4.2.2
+      - name: Diagnose website responses
+        run: |
+          node <<'NODE'
+          (async () => {
+            for (const url of ['https://dacnetwork.io/', 'https://www.dacnetwork.io/', 'https://dacnetwork.io/dac-metadata.json']) {
+              for (const agent of ['lychee/0.24.2', 'Mozilla/5.0']) {
+                try {
+                  const response = await fetch(url, { headers: { 'user-agent': agent }, signal: AbortSignal.timeout(15000) });
+                  const body = await response.text();
+                  console.log(JSON.stringify({ url, agent, status: response.status, server: response.headers.get('server'), type: response.headers.get('content-type'), title: body.match(/<title>([^<]*)<\/title>/i)?.[1] }));
+                } catch (error) { console.log(JSON.stringify({ url, agent, error: error.message })); }
+              }
+            }
+          })();
+          NODE
+          curl --silent --show-error --max-time 20 --output /dev/null --write-out 'curl status: %{http_code}\n' https://dacnetwork.io/
       - name: Check links
         uses: lycheeverse/lychee-action@v2.9.0
         with:
