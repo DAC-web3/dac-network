@@ -27,12 +27,39 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4.2.2
+      # The website CDN returns 403 to Lychee but serves these URLs to curl.
+      # Keep them checked here; the exact exclusions below avoid duplicate checks.
+      - name: Check website links
+        run: |
+          for url in \
+            'https://dacnetwork.io/' \
+            'https://www.dacnetwork.io/' \
+            'https://dacnetwork.io/dac-metadata.json'; do
+            status=$(curl --silent --show-error --location --fail \
+              --proto '=https' --proto-redir '=https' \
+              --connect-timeout 10 --max-time 30 \
+              --output /dev/null --write-out '%{http_code}' "$url")
+            echo "$url: HTTP $status"
+            case "$status" in
+              2??) ;;
+              *) exit 1 ;;
+            esac
+          done
       - name: Check links
         uses: lycheeverse/lychee-action@v2.9.0
         with:
           args: >-
             --no-progress
-            --header 'Accept: */*'
+            --exclude '^https://(www\.)?dacnetwork\.io/
+            --exclude '^https://x\.com/DACLabs$'
+            --exclude '^https://solscan\.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb$'
+            "./**/*.md"
+
+            --exclude '^https://dacnetwork\.io/dac-metadata\.json
+            --exclude '^https://x\.com/DACLabs$'
+            --exclude '^https://solscan\.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb$'
+            "./**/*.md"
+
             --exclude '^https://x\.com/DACLabs$'
             --exclude '^https://solscan\.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb$'
             "./**/*.md"
