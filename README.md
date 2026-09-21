@@ -117,6 +117,20 @@ Not $DAC mainnet. Old accounts still use xID + PIN.
 
 ---
 
+## DACx — Recent Improvements
+
+DACx continues to receive security and stability improvements. Recent updates include:
+
+- Enhanced xID generation using cryptographically secure random number generation
+- Stricter control over cross-origin resource sharing (CORS)
+- Additional rate limiting on read endpoints to protect against abuse
+- Server-side hardening and permission tightening
+- Ongoing dependency updates for long-term stability
+
+These improvements are part of DACnetwork's commitment to building a secure and reliable communication layer.
+
+---
+
 ## Narrative
 
 DACnetwork explores the transition from traditional institutions toward decentralized civilization.
