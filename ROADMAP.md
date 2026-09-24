@@ -13,7 +13,7 @@
 | Component | Status |
 |-----------|--------|
 | $DAC Token | ✅ LIVE — Solana Mainnet |
-| DACx | ✅ BETA — Android v1.5.7 |
+| DACx | ✅ BETA — Android v1.5.9 |
 | Website | ✅ LIVE — dacnetwork.io |
 | rutaX | 🔄 IN DEVELOPMENT — Devnet API live |
 | DACmeta | 📋 PLANNED |
