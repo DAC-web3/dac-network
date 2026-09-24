@@ -12,7 +12,7 @@ Updated regularly as milestones are reached.
 | $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022 |
 | Metadata | ✅ LIVE | `https://dacnetwork.io/dac-metadata.json` |
 | Website | ✅ LIVE | dacnetwork.io |
-| DACx | ✅ BETA | Android v1.5.7 — OTA updates active |
+| DACx | ✅ BETA | Android v1.5.9 — OTA updates active |
 | DACx Devnet Wallet | ✅ LIVE | DAC balance + send — Devnet only |
 | rutaX | 🔄 IN DEVELOPMENT | Android first — OTA distribution planned |
 | DACmeta | 📋 PLANNED | Prototype planning stage |
