@@ -20,7 +20,7 @@ Not speculation. Not passive holding.
 | Component | Status | Description |
 |-----------|--------|-------------|
 | $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022 |
-| DACx | ✅ BETA | Private messenger — Android v1.5.7 |
+| DACx | ✅ BETA | Private messenger — Android v1.5.9 |
 | rutaX | 🔄 IN DEVELOPMENT | Proof-of-Activity mobile app (Devnet) |
 | DACmeta | 📋 PLANNED | Digital society, VR, marketplace |
 | DAC Smart Systems | 🔬 RESEARCH | DePIN, edge infrastructure |
@@ -96,7 +96,7 @@ The physical layer — edge nodes and DePIN architecture.
 ### 💬 DACx — Private Communication Layer
 > *Ephemeral messaging. Honest about what we store.*
 
-**Status:** ✅ BETA — Android v1.5.7
+**Status:** ✅ BETA — Android v1.5.9
 
 The communication layer of DACnetwork.
 - xID identity — no phone, no email required
@@ -114,6 +114,20 @@ Not $DAC mainnet. Old accounts still use xID + PIN.
 
 👉 **Download:** [dacnetwork.io](https://dacnetwork.io)
 👉 **Repository:** https://github.com/DAC-web3/dacx
+
+---
+
+## DACx — Recent Improvements
+
+DACx continues to receive security and stability improvements. Recent updates include:
+
+- Enhanced xID generation using cryptographically secure random number generation
+- Stricter control over cross-origin resource sharing (CORS)
+- Additional rate limiting on read endpoints to protect against abuse
+- Server-side hardening and permission tightening
+- Ongoing dependency updates for long-term stability
+
+These improvements are part of DACnetwork's commitment to building a secure and reliable communication layer.
 
 ---
 
