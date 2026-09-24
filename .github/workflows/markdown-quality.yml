@@ -14,8 +14,6 @@ jobs:
   markdownlint:
     name: Markdown formatting
     runs-on: ubuntu-latest
-    outputs:
-      commit_sha: ${{ github.sha }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4.2.2
@@ -25,6 +23,7 @@ jobs:
           globs: "**/*.md"
       - name: Create commit status for Markdown formatting
         if: always()
+        timeout-minutes: 5
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -43,6 +42,7 @@ jobs:
     name: Markdown links
     runs-on: ubuntu-latest
     needs: markdownlint
+    if: always() && needs.markdownlint.result == 'success'
     steps:
       - name: Check out repository
         uses: actions/checkout@v4.2.2
@@ -58,6 +58,7 @@ jobs:
             "./**/*.md"
       - name: Create commit status for Markdown links
         if: always()
+        timeout-minutes: 5
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
