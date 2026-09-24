@@ -34,4 +34,6 @@ jobs:
             --no-progress --exclude-mail
             --exclude '^https://x\.com/DACLabs$'
             --exclude '^https://solscan\.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb$'
+            --exclude '^https://dacnetwork\.io/.*'
+            --exclude '^https://dacnetwork\.io/dac-metadata\.json$'
             "./**/*.md"
