@@ -47,7 +47,7 @@ Unlike speculative crypto projects, DACnetwork is designed around measurable uti
 | 01 | rutaX | Proof of Activity | In development (Devnet) | Mobile app rewarding verified physical movement. GPS-validated, anti-fraud protected. Rewards are Devnet, not $DAC mainnet. |
 | 02 | DACmeta | Digital Society | Planned | Structured virtual environments for interaction, digital creation and a decentralized marketplace. |
 | 03 | DAC Smart Systems | DePIN | Research | Physical edge nodes extending DACnetwork into the real world through decentralized infrastructure. |
-| 04 | DACx | Private Communication | Beta live (Android v1.5.7) | Ephemeral messaging with xID identity and a self-custody Solana Devnet wallet. No phone. No email. Messages are not end-to-end encrypted yet. |
+| 04 | DACx | Private Communication | Beta live (Android v1.5.9) | Ephemeral messaging with xID identity and a self-custody Solana Devnet wallet. No phone. No email. Messages are not end-to-end encrypted yet. |
 
 ### The $DAC Token
 
@@ -110,7 +110,7 @@ DACnetwork is designed as a decentralized ecosystem where multiple independent p
 rutaX — Proof of Activity          (IN DEVELOPMENT — Devnet)
 DACmeta — Digital Society          (PLANNED)
 DAC Smart Systems — DePIN          (RESEARCH)
-DACx — Private Communication       (BETA LIVE — Android v1.5.7)
+DACx — Private Communication       (BETA LIVE — Android v1.5.9)
 $DAC — Common utility token        (LIVE — Solana Mainnet)
 ```
 
@@ -138,7 +138,7 @@ Research stage. Edge devices are designed to process locally, publish cryptograp
 
 ### DACx — Private Communication Layer
 
-DACx is live on Android (Beta v1.5.7) with OTA updates. Members communicate through ephemeral messaging and a self-custody Solana **Devnet** wallet, identified by a unique xID, without a phone number or email. Voice calls are not offered in the current UI. Mainnet $DAC payments inside DACx are a future milestone.
+DACx is live on Android (Beta v1.5.9) with OTA updates. Members communicate through ephemeral messaging and a self-custody Solana **Devnet** wallet, identified by a unique xID, without a phone number or email. Voice calls are not offered in the current UI. Mainnet $DAC payments inside DACx are a future milestone.
 
 Download: [dacnetwork.io](https://dacnetwork.io) · Releases: https://github.com/DAC-web3/dacx/releases
 
@@ -246,7 +246,7 @@ Roadmap may change. Planned milestones are not guarantees.
 
 | Phase | Period | Status | Milestones |
 |-------|--------|--------|------------|
-| 0 | 2026 | In progress | Association registration in progress; whitepaper v2.0; $DAC live; DACx Beta v1.5.7; **website live**; community; GitHub docs; rutaX Devnet |
+| 0 | 2026 | In progress | Association registration in progress; whitepaper v2.0; $DAC live; DACx Beta v1.5.9; **website live**; community; GitHub docs; rutaX Devnet |
 | 1 | 2026–2027 | In progress | rutaX public beta; GPS anti-fraud; DACmeta prototype; Smart Systems prototype; DACx public launch / iOS |
 | 2 | 2027 | Planned | Official rutaX; DACmeta beta; Marketplace v1; public presale (TBD); DEX listing DAC/SOL (TBD); initial liquidity |
 | 3 | 2027–2028 | Planned | International expansion; partnerships; DACx mainnet $DAC payments; governance voting; 50,000+ active users target |
@@ -272,7 +272,7 @@ Five layers share $DAC:
 | Activity | rutaX | In development — Devnet API live |
 | Social | DACmeta | Planned |
 | Physical | DAC Smart Systems | Research |
-| Communication | DACx | Beta v1.5.7 Android |
+| Communication | DACx | Beta v1.5.9 Android |
 | Economic | $DAC | Live — Solana Mainnet Token-2022 |
 
 Architectural principle: humans contribute; devices measure; edge systems process; blockchain verifies; the ecosystem rewards.
@@ -359,7 +359,7 @@ DACx does **not** claim that conversation content never touches a server.
 
 | Phase | Status | Milestones |
 |-------|--------|------------|
-| 0 | Done | MVP, xID, Android Beta v1.5.7, OTA, Devnet wallet |
+| 0 | Done | MVP, xID, Android Beta v1.5.9, OTA, Devnet wallet |
 | 1 | In progress | Public beta, 1,000+ xIDs, iOS, anti-spam |
 | 2 | Planned | Mainnet wallet, multi-app xID, public launch |
 | 3 | Planned | E2EE, $DAC payments in DACx, group chat |
@@ -388,7 +388,7 @@ The native utility token, Token-2022 on Solana Mainnet. It is not an investment.
 Proof-of-Activity app **in development**. Target: 1 $DAC / 10 km, max **5 $DAC / user / day**, max **50,000 $DAC / network / day**. Rewards on **Devnet**, not mainnet. Identity from DACx (Link rutaX).
 
 **What is DACx?**  
-Private messenger: ephemeral messages (3 minutes after read), 9-digit xID, built-in Solana Devnet wallet. Android Beta v1.5.7 + OTA. Voice calls not in the current UI. E2EE planned, not live. Devnet DAC mint `8NeGLu1s8jQjvrtgpTKPMkGg71NKKpwaMthhUSkfLatR` is not mainnet $DAC.
+Private messenger: ephemeral messages (3 minutes after read), 9-digit xID, built-in Solana Devnet wallet. Android Beta v1.5.9 + OTA. Voice calls not in the current UI. E2EE planned, not live. Devnet DAC mint `8NeGLu1s8jQjvrtgpTKPMkGg71NKKpwaMthhUSkfLatR` is not mainnet $DAC.
 
 **Does $DAC guarantee returns?**  
 No. No price, liquidity or listing is guaranteed.
