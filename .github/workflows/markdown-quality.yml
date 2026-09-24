@@ -33,5 +33,8 @@ jobs:
           args: >-
             --no-progress --exclude-mail
             --exclude '^https://x\.com/DACLabs$'
-            --exclude '^https://solscan\.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb$'
+            --exclude '^https://solscan\.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb
+
+            --exclude '^https?://(www\.)?dacnetwork\.io(/.*)?
+
             "./**/*.md"

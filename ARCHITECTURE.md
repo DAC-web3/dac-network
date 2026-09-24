@@ -33,7 +33,7 @@ DACnetwork
 │
 ├── Communication Layer
 │ └── DACx
-│ Status: LIVE (Beta v1.5.7 — Android)
+│ Status: LIVE (Beta v1.5.9 — Android)
 │ Private messaging, xID identity, Solana Devnet wallet
 │
 └── Economic Layer
@@ -50,7 +50,7 @@ Utility token — Token-2022 Standard
 | Activity | rutaX | 🔄 IN DEVELOPMENT |
 | Social | DACmeta | 📋 PLANNED |
 | Physical | DAC Smart Systems | 🔬 RESEARCH |
-| Communication | DACx | ✅ LIVE — Beta v1.5.7 |
+| Communication | DACx | ✅ LIVE — Beta v1.5.9 |
 | Economic | $DAC Token | ✅ LIVE — Solana Mainnet |
 
 ---
@@ -128,7 +128,7 @@ Final authority always belongs to the human.
 
 ### Communication Layer — DACx
 
-**Status:** LIVE — Beta v1.5.7 (Android)
+**Status:** LIVE — Beta v1.5.9 (Android)
 
 DACx is the private communication and identity layer of DACnetwork.
 
