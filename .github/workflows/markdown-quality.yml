@@ -24,7 +24,7 @@ jobs:
       - name: Create commit status for Markdown formatting
         if: always()
         timeout-minutes: 5
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -60,7 +60,7 @@ jobs:
       - name: Create commit status for Markdown links
         if: always()
         timeout-minutes: 5
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
