@@ -33,7 +33,7 @@ DACnetwork
 │
 ├── Communication Layer
 │ └── DACx
-│ Status: LIVE (Beta v1.5.9 — Android)
+│ Status: LIVE (Beta v1.5.10 — Android)
 │ Private messaging, xID identity, Solana Devnet wallet
 │
 └── Economic Layer
@@ -50,7 +50,7 @@ Utility token — Token-2022 Standard
 | Activity | rutaX | 🔄 IN DEVELOPMENT |
 | Social | DACmeta | 📋 PLANNED |
 | Physical | DAC Smart Systems | 🔬 RESEARCH |
-| Communication | DACx | ✅ LIVE — Beta v1.5.9 |
+| Communication | DACx | ✅ LIVE — Beta v1.5.10 |
 | Economic | $DAC Token | ✅ LIVE — Solana Mainnet |
 
 ---
@@ -128,7 +128,7 @@ Final authority always belongs to the human.
 
 ### Communication Layer — DACx
 
-**Status:** LIVE — Beta v1.5.9 (Android)
+**Status:** LIVE — Beta v1.5.10 (Android)
 
 DACx is the private communication and identity layer of DACnetwork.
 
@@ -143,7 +143,7 @@ DACx is the private communication and identity layer of DACnetwork.
 - Devnet DAC (Token-2022) mint `8NeGLu1s8jQjvrtgpTKPMkGg71NKKpwaMthhUSkfLatR` — view + send. **Not** mainnet $DAC
 - Push notifications — FCM
 - OTA updates — automatic, no reinstall needed
-- PIN lock — required on every app open (4–6 digits)
+- PIN lock — required on every app open (4–6 digits); optional biometric unlock on APK 1.5.10
 - Privacy cover — app switcher shows only logo
 - Auto-lock — configurable timer
 - 24 emoji reactions + Delete for both
