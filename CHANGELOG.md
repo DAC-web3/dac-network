@@ -11,6 +11,7 @@ Format: `[Version] — Date — Description`
 - Download: https://github.com/DAC-web3/dacx/releases/download/v1.5.10/dacx-1.5.10.apk
 - Users on 1.5.7 or 1.5.9 must install 1.5.10 once. Biometric unlock is native and is not an OTA on older APKs.
 - DACx production API reports 1.5.10. Wallet remains Solana Devnet.
+- Live 1.5.10 UI is the quiet black palette (true black, mint `#14F195`), English copy, and square xID avatars. JS/UI polish ships as OTA on runtime 1.5.10.
 - rutaX remains **IN DEVELOPMENT** on Devnet; public beta is not yet launched.
 
 ## [0.9.0] — September 2026

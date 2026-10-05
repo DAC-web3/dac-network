@@ -123,6 +123,8 @@ Not $DAC mainnet. Old accounts still use xID + PIN.
 
 DACx continues to receive security and stability improvements. Recent updates include:
 
+- Android v1.5.10 APK with optional biometric unlock
+- Quiet black UI (true black, mint accent), English copy, and square xID avatars, delivered as OTA on 1.5.10
 - Enhanced xID generation using cryptographically secure random number generation
 - Stricter control over cross-origin resource sharing (CORS)
 - Additional rate limiting on read endpoints to protect against abuse

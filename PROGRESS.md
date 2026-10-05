@@ -5,19 +5,34 @@ Updated regularly as milestones are reached.
 
 ---
 
-## Current Status — September 2026
+## Current Status — October 2026
 
 | Component | Status | Notes |
 |-----------|--------|-------|
 | $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022 |
 | Metadata | ✅ LIVE | `https://dacnetwork.io/dac-metadata.json` |
 | Website | ✅ LIVE | dacnetwork.io |
-| DACx | ✅ BETA | Android v1.5.10 — install this APK; OTA follows that runtime |
+| DACx | ✅ BETA | Android v1.5.10 — quiet black UI, English, square xID avatars; OTA on this runtime |
 | DACx Devnet Wallet | ✅ LIVE | DAC balance + send — Devnet only |
 | rutaX | 🔄 IN DEVELOPMENT | Android first — OTA distribution planned |
 | DACmeta | 📋 PLANNED | Prototype planning stage |
 | DAC Smart Systems | 🔬 RESEARCH | Node design stage |
 | Association | 🔄 IN PROGRESS | Registration under OG 26/2000 — not yet in the registry |
+
+---
+
+## October 2026
+
+### Completed
+- ✅ DACx Android v1.5.10 APK — biometric unlock (native; not OTA onto 1.5.7 or 1.5.9)
+- ✅ DACx OTA on runtime 1.5.10 — quiet black palette, English UI, square xID avatars
+- ✅ DACx production API labeled 1.5.10 (30-day JWT, compatible with the APK)
+
+### In Progress
+- 🔄 rutaX beta development — Android first, OTA distribution
+- 🔄 Association legal registration
+- 🔄 Community channels launch preparation
+- 🔄 DACmeta prototype planning
 
 ---
 

@@ -143,7 +143,7 @@ DACx is the private communication and identity layer of DACnetwork.
 - Devnet DAC (Token-2022) mint `8NeGLu1s8jQjvrtgpTKPMkGg71NKKpwaMthhUSkfLatR` — view + send. **Not** mainnet $DAC
 - Push notifications — FCM
 - OTA updates — automatic, no reinstall needed
-- PIN lock — required on every app open (4–6 digits)
+- PIN lock — required on every app open (4–6 digits); optional biometric unlock on APK 1.5.10
 - Privacy cover — app switcher shows only logo
 - Auto-lock — configurable timer
 - 24 emoji reactions + Delete for both
