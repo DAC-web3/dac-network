@@ -4,6 +4,15 @@ All notable changes to DACnetwork are documented here.
 
 Format: `[Version] — Date — Description`
 
+## [0.9.1] — October 2026
+
+### Current ecosystem status
+- DACx Beta v1.5.10 is the current Android APK.
+- Download: https://github.com/DAC-web3/dacx/releases/download/v1.5.10/dacx-1.5.10.apk
+- Users on 1.5.7 or 1.5.9 must install 1.5.10 once. Biometric unlock is native and is not an OTA on older APKs.
+- DACx production API reports 1.5.10. Wallet remains Solana Devnet.
+- rutaX remains **IN DEVELOPMENT** on Devnet; public beta is not yet launched.
+
 ## [0.9.0] — September 2026
 
 ### Current ecosystem status
