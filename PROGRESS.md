@@ -12,7 +12,7 @@ Updated regularly as milestones are reached.
 | $DAC Token | ✅ LIVE | Solana Mainnet — Token-2022 |
 | Metadata | ✅ LIVE | `https://dacnetwork.io/dac-metadata.json` |
 | Website | ✅ LIVE | dacnetwork.io |
-| DACx | ✅ BETA | Android v1.5.10 — quiet black UI, English, square xID avatars; OTA on this runtime |
+| DACx | ✅ BETA | Android v1.5.11 — quiet black UI, English, square xID avatars; OTA on this runtime |
 | DACx Devnet Wallet | ✅ LIVE | DAC balance + send — Devnet only |
 | rutaX | 🔄 IN DEVELOPMENT | Android first — OTA distribution planned |
 | DACmeta | 📋 PLANNED | Prototype planning stage |
@@ -132,7 +132,7 @@ Updated regularly as milestones are reached.
 
 - $DAC contract: https://solscan.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb
 - DACnetwork GitHub: https://github.com/DAC-web3
-- DACx releases: https://github.com/DAC-web3/dacx/releases
+- DACx v1.5.11 APK: https://github.com/DAC-web3/dacx/releases/download/v1.5.11/dacx-1.5.11.apk
 
 ---
 
