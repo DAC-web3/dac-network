@@ -63,7 +63,7 @@ Utility token — Token-2022 Standard
 
 rutaX is the Proof-of-Activity mobile application of DACnetwork.
 
-**Live on Devnet now** (`https://api.dacnetwork.io/rutax/health`):
+**Routing note:** `https://api.dacnetwork.io/rutax/health` returned HTTP 404 during the 11 November 2026 audit, so this document does not treat that path as a live health check. The DACx production health endpoint is `https://api.dacnetwork.io/health`; this does not establish whether other rutaX routes are available.
 - 1 $DAC per 10 km of GPS-validated activity
 - Maximum **5 $DAC per user per day**
 - Maximum **50,000 $DAC per day** for the whole network (credit returns 429 when full)

@@ -9,7 +9,7 @@ Format: `[Version] — Date — Description`
 ### Current ecosystem status
 - DACx Beta v1.5.11 is the current official Android version.
 - Download: https://github.com/DAC-web3/dacx/releases/download/v1.5.11/dacx-1.5.11.apk
-- SHA-256: `db7bbc32582770882f6c2ae52508f146e92de21defb92c0bba82f95fcee260e8`
+- SHA-256: `9b09d4695e9523988faf3068fbb778a0fb89c7b8f3bf83ae11af3154907bc5ce`
 - DACx production API reports 1.5.11. Wallet remains Solana Devnet.
 - Current DACx UI uses the quiet black palette (true black, mint `#14F195`), English copy, and square xID avatars. JS/UI polish ships as OTA on runtime 1.5.11.
 - rutaX remains **IN DEVELOPMENT** on Devnet; public beta is not yet launched.
