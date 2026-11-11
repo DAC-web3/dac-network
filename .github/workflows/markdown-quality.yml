@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v7.0.1
       - name: Lint Markdown
         uses: DavidAnson/markdownlint-cli2-action@v20.0.0
         with:
@@ -46,7 +46,7 @@ jobs:
     if: always() && needs.markdownlint.result == 'success'
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v7.0.1
       - name: Check links
         uses: lycheeverse/lychee-action@v2.4.1
         with:
