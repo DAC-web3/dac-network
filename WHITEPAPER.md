@@ -246,7 +246,7 @@ Roadmap may change. Planned milestones are not guarantees.
 
 | Phase | Period | Status | Milestones |
 |-------|--------|--------|------------|
-| 0 | 2026 | In progress | Association registration in progress; whitepaper v2.0; $DAC live; DACx Beta v1.5.10; **website live**; community; GitHub docs; rutaX Devnet |
+| 0 | 2026 | In progress | Association registration in progress; whitepaper v2.0; $DAC live; DACx Beta v1.5.11; **website live**; community; GitHub docs; rutaX Devnet |
 | 1 | 2026–2027 | In progress | rutaX public beta; GPS anti-fraud; DACmeta prototype; Smart Systems prototype; DACx public launch / iOS |
 | 2 | 2027 | Planned | Official rutaX; DACmeta beta; Marketplace v1; public presale (TBD); DEX listing DAC/SOL (TBD); initial liquidity |
 | 3 | 2027–2028 | Planned | International expansion; partnerships; DACx mainnet $DAC payments; governance voting; 50,000+ active users target |
