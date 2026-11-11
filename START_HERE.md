@@ -43,7 +43,8 @@ DACnetwork has five layers:
 - Private messenger with xID identity
 - Ephemeral messages and Solana Devnet wallet
 - Voice calls are not offered in the current UI
-- Releases and APK: https://github.com/DAC-web3/dacx/releases
+- APK: https://github.com/DAC-web3/dacx/releases/download/v1.5.11/dacx-1.5.11.apk
+- SHA-256: `db7bbc32582770882f6c2ae52508f146e92de21defb92c0bba82f95fcee260e8`
 - Repository: https://github.com/DAC-web3/dacx
 
 ---

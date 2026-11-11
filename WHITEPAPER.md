@@ -140,7 +140,7 @@ Research stage. Edge devices are designed to process locally, publish cryptograp
 
 DACx is live on Android (Beta v1.5.11) with OTA updates. Members communicate through ephemeral messaging and a self-custody Solana **Devnet** wallet, identified by a unique xID, without a phone number or email. Voice calls are not offered in the current UI. Mainnet $DAC payments inside DACx are a future milestone.
 
-Download: [dacnetwork.io](https://dacnetwork.io) · Releases: https://github.com/DAC-web3/dacx/releases
+APK v1.5.11: https://github.com/DAC-web3/dacx/releases/download/v1.5.11/dacx-1.5.11.apk · [dacnetwork.io](https://dacnetwork.io) · Releases: https://github.com/DAC-web3/dacx/releases
 
 ---
 
@@ -318,7 +318,7 @@ If it can be verified, make it verifiable. If resources move, show the movement.
 
 **Version:** 1.5.11 · **Platform:** Android · **Status:** Beta live + OTA
 
-Download: [dacnetwork.io](https://dacnetwork.io) · https://github.com/DAC-web3/dacx/releases
+APK v1.5.11: https://github.com/DAC-web3/dacx/releases/download/v1.5.11/dacx-1.5.11.apk · [dacnetwork.io](https://dacnetwork.io) · https://github.com/DAC-web3/dacx/releases
 
 ### 16.1 What it is
 
@@ -398,7 +398,7 @@ No. No price, liquidity or listing is guaranteed.
 Solscan, mint `4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb`.
 
 **Where do I download DACx?**  
-[dacnetwork.io](https://dacnetwork.io) and https://github.com/DAC-web3/dacx/releases/latest
+[DACx 1.5.11 APK](https://github.com/DAC-web3/dacx/releases/download/v1.5.11/dacx-1.5.11.apk), [dacnetwork.io](https://dacnetwork.io), and https://github.com/DAC-web3/dacx/releases/latest
 
 ---
 

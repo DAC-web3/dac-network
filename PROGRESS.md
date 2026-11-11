@@ -132,7 +132,7 @@ Updated regularly as milestones are reached.
 
 - $DAC contract: https://solscan.io/token/4m9XHiFaZcoUiMxaJH9DbxSXJXuQuXASw3q35hZPjghb
 - DACnetwork GitHub: https://github.com/DAC-web3
-- DACx releases: https://github.com/DAC-web3/dacx/releases
+- DACx v1.5.11 APK: https://github.com/DAC-web3/dacx/releases/download/v1.5.11/dacx-1.5.11.apk
 
 ---
 
