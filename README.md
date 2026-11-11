@@ -107,13 +107,13 @@ The communication layer of DACnetwork.
 - 12 words recover the wallet — restore is live
 - Devnet DAC (Token-2022) mint `8NeGLu1s8jQjvrtgpTKPMkGg71NKKpwaMthhUSkfLatR` — **not** mainnet $DAC
 - Phrase never sent to the server
-- OTA updates — automatic, no reinstall needed
+- Unsigned Android OTA updates — replacement APK (`versionCode: 2`) required first; Sequence 3 is published and the next OTA is Sequence 4
 - Voice calls are not offered in the current UI
 
 Not $DAC mainnet. Old accounts still use xID + PIN.
 
 👉 **Download APK:** [dacx-1.5.11.apk](https://github.com/DAC-web3/dacx/releases/download/v1.5.11/dacx-1.5.11.apk)
-👉 **SHA-256:** `db7bbc32582770882f6c2ae52508f146e92de21defb92c0bba82f95fcee260e8`
+👉 **SHA-256:** `9b09d4695e9523988faf3068fbb778a0fb89c7b8f3bf83ae11af3154907bc5ce`
 👉 **Releases:** https://github.com/DAC-web3/dacx/releases/latest
 👉 **Website:** [dacnetwork.io](https://dacnetwork.io)
 👉 **Repository:** https://github.com/DAC-web3/dacx
@@ -124,8 +124,8 @@ Not $DAC mainnet. Old accounts still use xID + PIN.
 
 DACx continues to receive security and stability improvements. Recent updates include:
 
-- v1.5.10 release: Android APK with optional biometric unlock
-- v1.5.10 OTA: quiet black UI (true black, mint accent), English copy, and square xID avatars
+- v1.5.11 replacement Android APK (`versionCode: 2`); runtime remains 1.5.11
+- v1.5.11 OTA: quiet black UI (true black, mint accent), English copy, and square xID avatars
 - Enhanced xID generation using cryptographically secure random number generation
 - Stricter control over cross-origin resource sharing (CORS)
 - Additional rate limiting on read endpoints to protect against abuse

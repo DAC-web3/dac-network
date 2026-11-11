@@ -5,7 +5,7 @@ Updated regularly as milestones are reached.
 
 ---
 
-## Current Status — October 2026
+## Current Status — November 2026
 
 | Component | Status | Notes |
 |-----------|--------|-------|
@@ -18,6 +18,15 @@ Updated regularly as milestones are reached.
 | DACmeta | 📋 PLANNED | Prototype planning stage |
 | DAC Smart Systems | 🔬 RESEARCH | Node design stage |
 | Association | 🔄 IN PROGRESS | Registration under OG 26/2000 — not yet in the registry |
+
+---
+
+## November 2026
+
+### Completed
+- ✅ DACx v1.5.11 replacement APK published (`versionCode: 2`); SHA-256 is recorded in the public download README.
+- ✅ DACx production API health check is `https://api.dacnetwork.io/health` and reports version 1.5.11.
+- ✅ First unsigned Android OTA published as Sequence 3; the next OTA must use Sequence 4.
 
 ---
 

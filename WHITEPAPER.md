@@ -118,7 +118,7 @@ $DAC — Common utility token        (LIVE — Solana Mainnet)
 
 rutaX transforms verified physical movement into digital value using GPS validation and anti-fraud checks. Rewarded activities include walking, running, cycling and hiking. Sensitive location data is processed locally whenever possible.
 
-**Live on Devnet now** (`https://api.dacnetwork.io/rutax/health`):
+**Routing note:** `https://api.dacnetwork.io/rutax/health` returned HTTP 404 during the 11 November 2026 audit; this path is not a verified rutaX health check. The DACx production health endpoint is `https://api.dacnetwork.io/health`. This does not establish whether other rutaX routes are available.
 
 - 1 $DAC per 10 km of GPS-validated activity
 - Maximum **5 $DAC per user per day**
